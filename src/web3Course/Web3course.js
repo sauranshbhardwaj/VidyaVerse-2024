@@ -4,6 +4,7 @@ import Navbar from "../Component/Navbar";
 import Footer from "../Component/Footer";
 import sealCheck from '../images/SealCheck.svg'
 import Instructor from '../images/steller-img1.png'
+import backgroundImg from "../images/web3-for-genz.png;
 
 const Web3course = () => {
     const [conetAr, setContentArr] = useState(['Introduction to the Web3', 'Blockchain Technology', 'Cryptocurrencies', 'Smart Contract', 'DApps, DeFi, Web3 Gaming, etc.'])
@@ -15,7 +16,7 @@ const Web3course = () => {
                 <div className="web2course-container m-auto">
                     <p className="web2course-course-enroll mt-5"><span className="web2course-course-subenroll">20 hours course</span> <strong>// Course Enroll //</strong></p>
                     <div className="web2course-course">
-                        <div className="web2course-courseContent">
+                        <div className="web2course-courseContent" style={{backgroundImge: backgroundImg}}>
                             <h1 className="web2course-courseContent-head">Introduction to Web3</h1>
                             <p className="web2course-courseContent-prag">Explore how Web3 revolutionizes digital interactions. Learn its core principles, tech, and applications. Step into the future of the internet!</p>
                             <button className="web2course-courseContent-launchbtn">
@@ -139,8 +140,8 @@ const Web3course = () => {
                                 <del className="web2course-courseDesc-video-delrupee px-2 mx-2">₹ 4999</del>
                                 <span className="web2course-courseDesc-video-off px-2">50% off</span>
                             </div>
-                            <button className="web2course-courseDesc-add-cart">Add to Cart</button>
-                            <button className="web2course-courseDesc-enroll my-2">Enroll Now</button>
+                            <button className="web2course-courseDesc-add-cart">Coming Soon</button>
+                            <button className="web2course-courseDesc-enroll my-2">Coming Soon</button>
 
                               {/*<h6 className="web2course-courseDesc-feat mt-3">This Course includes:</h6>
                            <ul className="web2course-courseDesc-ul">

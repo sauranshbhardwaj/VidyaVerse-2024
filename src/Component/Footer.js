@@ -25,14 +25,14 @@ export default function Footer() {
         <div className="d-flex footer-list">
           <ul className="footer-program-ul">
             <li>Company</li>
-            <li>About us</li>
+            <li><a href="/About">About us</a></li>
             <li>Contact us</li>
             <li>Career</li>
             <li>Blogs</li>
           </ul>
           <ul className="footer-program-ul">
             <li>Our Programs</li>
-            <li>Web3 for GenZ Course</li>
+            <li><a href="/web3course">Web3 for GenZ Course</a></li>
             <li>Student Ambassador Program</li>
             <li>Free Introductory Course</li>
           </ul>

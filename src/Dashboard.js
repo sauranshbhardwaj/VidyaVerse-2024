@@ -12,7 +12,9 @@ import chartBarImg from './images/ChartBar.svg'
 import magnifyGImg from './images/MagnifyingGlass.svg'
 import bulbImg from './images/Lightbulb.svg'
 import currentTestinomialImg from './images/Rectangle 27.png'
-import pedingTestinomialImg from './images/Rectangle 31.png'
+import pedingTestinomialImg from './images/connect-grow-thrive.png'
+import cardImg from "./images/course-offered.jpeg"
+import web3Img from "./images/web3-for-genz.png"
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -65,7 +67,7 @@ export default function Dashboard() {
         <div className="section1data" style={{marginTop: "70px"}}>
           <h1 className="landing-title text-center"> The Ultimate Space For Learning Web3</h1>
           <p className="text-center" style={{fontSize: "larger", fontWeight: 700, marginTop: "20px"}}>Enter The Web3 Era: Learn & Thrive</p>
-          <button className="landing-start-btn bg-transparent mt-3" >Get Started</button>
+          <a className="landing-start-btn bg-transparent mt-3" href="/web3course">Get Started</a>
         </div>
         <div className="landing-astronaut1">
           <img src={airman1} alt="Astronaut 1" />
@@ -123,12 +125,14 @@ export default function Dashboard() {
             <div className="connect-pentagon connect-pentagon5"><img src={pedingTestinomialImg} alt="" /></div>
             <div className="connect-pentagon connect-pentagon6"><img src={pedingTestinomialImg} alt="" /></div>
             <div className="connect-pentagon connect-pentagon7"><img src={pedingTestinomialImg} alt="" /></div>*/
-            } </div>
+            }
+          </div>
+        </div>
         <div className="technology-box mx-auto my-5 px-5">
           <div className="technology-left-box">
             <h3 className="technology-left-box-text mt-4"><span className="technology-left-box-subtext">Explore</span>  WEB3 Technologies</h3>
             <p className="technology-left-pra-text">Find the best Course to learn new technologies in WEB3 Space</p>
-            <p className="technology-left-pra-text2">Interested learning? <a href="#">Enroll now</a></p>
+            <p className="technology-left-pra-text2">Interested learning? <a href="/web3course">Enroll now</a></p>
           </div>
           <div className="technology-right-box  d-flex align-items-end">
             <div className="technology-type-div position-relative">
@@ -151,17 +155,17 @@ export default function Dashboard() {
             <h3 className="learn-left-box-text"><span className="learn-left-box-subtext">Learn</span> and Fun</h3>
             <div>
               <p className="learn-left-box-pra-text">Courses curated such that even a beginner can dive into the WEB3 space easily.</p>
-              <button className="learn-btn">View Courses
+              <a className="learn-btn" href='/web3course'>View Courses
                 <img src={arrowIcon} alt="arrow icon btn" className="mx-2" />
-              </button>
+              </a>
             </div>
           </div>
           <div className="learn-right-box position-relative">
-            <div className="learn-video-card learn-video-card1">
+            <div className="learn-video-card learn-video-card1" style={{padding:"4px", backgroundImage: cardImg}}>
               <h1>INTRODUCTION TO WEB3</h1>
             </div>
-            <div className="learn-video-card learn-video-card2"></div>
-            <div className="learn-video-card learn-video-card3"></div>
+            {/*<div className="learn-video-card learn-video-card2"></div>
+            <div className="learn-video-card learn-video-card3"></div>*/}
           </div>
         </div>
       </section>
@@ -172,13 +176,13 @@ export default function Dashboard() {
         <div className="offer-course-section1">
           <p className="course-offer-title"> The <span className="courses-text-color">Courses</span> <br />we offer</p>
           <p className="course-offer-text">Embark on a transformative Web3 learning experience. Explore decentralized technologies, collaborate with experts, and unlock limitless possibilities.</p>
-          <button className="offer-course-btn d-inline">Enroll Now
+          <a className="offer-course-btn d-inline" href='/web3course'>Enroll Now
             <img src={arrowIcon} alt="arrow icon btn" className="mx-2" />
-          </button>
+          </a>
         </div>
         <div className="course-offer-carousel d-flex position-absolute ">
-          <div className="course-offer-carousel-card1"></div>
-          <div className="course-offer-carousel-card1 mx-4"></div>
+          <div className="course-offer-carousel-card1" style={{backgroundImage: web3Img}}></div>
+          {/*<div className="course-offer-carousel-card1 mx-4"></div>*/}
         </div>
       </section>
 
@@ -252,7 +256,7 @@ export default function Dashboard() {
       </section> */}
 
       {/* ----------------------- FAQ Section -------------- */}
-      <section className="faq-section">
+      {/*<section className="faq-section">
         <h1 className="faq-title text-center">Your Questions, <span className="key-section-subtitle">Answered</span></h1>
 
         <ul className="faq-question-ul p-0">
@@ -262,7 +266,7 @@ export default function Dashboard() {
           <li className="faq-question-li d-flex justify-content-between p-3 list-style-none"><span>How can I get started with Web3 development?</span><span>+</span></li>
           <li className="faq-question-li d-flex justify-content-between p-3 list-style-none"><span>What are some real-world applications and use cases of Web3?</span><span>+</span></li>
         </ul>
-      </section>
+    </section>*/}
 
       <Footer />
     </div>

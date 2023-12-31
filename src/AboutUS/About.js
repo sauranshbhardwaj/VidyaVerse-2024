@@ -117,7 +117,7 @@ const About = () => {
             <img src={Shardeum} alt="Shardeum" />
           </div>
           <div className="about-carousel-section-card"> <img src={Liquide} alt="Liquide" /></div>
-          <div className="about-carousel-section-card"> <img src={Fampay} alt="Fampay" /></div>
+          {/*<div className="about-carousel-section-card"> <img src={Fampay} alt="Fampay" /></div>*/}
         </section>
       </section>
       {/* ------------- Core Value Section -------------- */}
