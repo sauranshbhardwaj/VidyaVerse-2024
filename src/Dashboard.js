@@ -90,8 +90,8 @@ export default function Dashboard() {
           className="mySwiper">
           <SwiperSlide className="dashboard-swiper"><img src={Carousel7} alt='Carousel7'/></SwiperSlide>
           <SwiperSlide className="dashboard-swiper" style={{width:'300px',height:'120px'}}><img src={Berkeley} alt='Berkeley' style={{marginTop:"-10px"}}/></SwiperSlide>
-          <SwiperSlide className="dashboard-swiper"><img src={Carousel9} alt='Carousel9'/></SwiperSlide>
-          <SwiperSlide className="dashboard-swiper"><img src={Carousel2} alt='Carousel2'/></SwiperSlide>
+          <SwiperSlide className="dashboard-swiper"><img src={Carousel9} alt='Carousel9' style={{height: "69px", marginRight: "30px", marginTop: "15px", width: "300px"}}/></SwiperSlide>
+          <SwiperSlide className="dashboard-swiper"><img src={Carousel2} alt='Carousel2' style={{height: "60px", marginLeft: "45px", marginTop: "20px"}}/></SwiperSlide>
           <SwiperSlide className="dashboard-swiper"><img src={Carousel5} alt='Carousel5' style={{width:'45%'}}/></SwiperSlide>
           <SwiperSlide className="dashboard-swiper d-flex justify-content-center align-items-center" style={{width:'130px',}}><img src={Carousel4} alt='Carousel4' style={{width:'45%',height:'60%'}}/></SwiperSlide>
           <SwiperSlide className="dashboard-swiper" style={{width:'130px'}}><img src={Carousel3} alt='Carousel3' style={{width:'45%'}}/></SwiperSlide>
