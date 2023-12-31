@@ -113,17 +113,17 @@ export default function Dashboard() {
           <div className="connect-right-box position-relative mt-1">
             {/* <div className="connect-outer-penta"></div> */}
 
-            <div className="connect-pentagon connect-pentagon1">
+            <div className="connect-pentagon" style={{height:"100%", marginTop: "80px"}}>
               <img src={pedingTestinomialImg} alt="" />
             </div>
-            <div className="connect-pentagon connect-pentagon2"><img src={pedingTestinomialImg} alt="" /></div>
+            {
+            /*<div className="connect-pentagon connect-pentagon2"><img src={pedingTestinomialImg} alt="" /></div>
             <div className="connect-pentagon connect-pentagon3"><img src={pedingTestinomialImg} alt="" /></div>
             <div className="connect-pentagon connect-pentagon4"><img src={pedingTestinomialImg} alt="" /></div>
             <div className="connect-pentagon connect-pentagon5"><img src={pedingTestinomialImg} alt="" /></div>
             <div className="connect-pentagon connect-pentagon6"><img src={pedingTestinomialImg} alt="" /></div>
-            <div className="connect-pentagon connect-pentagon7"><img src={pedingTestinomialImg} alt="" /></div>
-          </div>
-        </div>
+            <div className="connect-pentagon connect-pentagon7"><img src={pedingTestinomialImg} alt="" /></div>*/
+            }
         <div className="technology-box mx-auto my-5 px-5">
           <div className="technology-left-box">
             <h3 className="technology-left-box-text mt-4"><span className="technology-left-box-subtext">Explore</span>  WEB3 Technologies</h3>
