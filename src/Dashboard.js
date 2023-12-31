@@ -63,8 +63,8 @@ export default function Dashboard() {
       <section className="landing-section" style={{ paddingTop: "20px" }}>
         <Navbar />
         <div className="section1data" style={{marginTop: "70px"}}>
-          <h1 className="landing-title text-center"> The ultimate space for learning WEB3.</h1>
-          <p className="text-center" style={{fontSize: "larger", fontWeight: 700, marginTop: "20px"}}>Enter the Web3 Era: Learn & Thrive</p>
+          <h1 className="landing-title text-center"> The Ultimate Space For Learning Web3</h1>
+          <p className="text-center" style={{fontSize: "larger", fontWeight: 700, marginTop: "20px"}}>Enter The Web3 Era: Learn & Thrive</p>
           <button className="landing-start-btn bg-transparent mt-3" >Get Started</button>
         </div>
         <div className="landing-astronaut1">
