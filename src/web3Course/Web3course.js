@@ -4,7 +4,7 @@ import Navbar from "../Component/Navbar";
 import Footer from "../Component/Footer";
 import sealCheck from '../images/SealCheck.svg'
 import Instructor from '../images/steller-img1.png'
-import backgroundImg from "../images/web3-for-genz.png;
+import backgroundImg from "../images/web3-for-genz.png";
 
 const Web3course = () => {
     const [conetAr, setContentArr] = useState(['Introduction to the Web3', 'Blockchain Technology', 'Cryptocurrencies', 'Smart Contract', 'DApps, DeFi, Web3 Gaming, etc.'])
