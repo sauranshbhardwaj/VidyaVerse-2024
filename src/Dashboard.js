@@ -123,7 +123,7 @@ export default function Dashboard() {
             <div className="connect-pentagon connect-pentagon5"><img src={pedingTestinomialImg} alt="" /></div>
             <div className="connect-pentagon connect-pentagon6"><img src={pedingTestinomialImg} alt="" /></div>
             <div className="connect-pentagon connect-pentagon7"><img src={pedingTestinomialImg} alt="" /></div>*/
-            }
+            } </div>
         <div className="technology-box mx-auto my-5 px-5">
           <div className="technology-left-box">
             <h3 className="technology-left-box-text mt-4"><span className="technology-left-box-subtext">Explore</span>  WEB3 Technologies</h3>
