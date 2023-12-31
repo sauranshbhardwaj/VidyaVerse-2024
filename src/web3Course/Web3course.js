@@ -4,7 +4,6 @@ import Navbar from "../Component/Navbar";
 import Footer from "../Component/Footer";
 import sealCheck from '../images/SealCheck.svg'
 import Instructor from '../images/steller-img1.png'
-import backgroundImg from "../images/web3-for-genz.png";
 
 const Web3course = () => {
     const [conetAr, setContentArr] = useState(['Introduction to the Web3', 'Blockchain Technology', 'Cryptocurrencies', 'Smart Contract', 'DApps, DeFi, Web3 Gaming, etc.'])
@@ -16,7 +15,7 @@ const Web3course = () => {
                 <div className="web2course-container m-auto">
                     <p className="web2course-course-enroll mt-5"><span className="web2course-course-subenroll">20 hours course</span> <strong>// Course Enroll //</strong></p>
                     <div className="web2course-course">
-                        <div className="web2course-courseContent" style={{backgroundImge: backgroundImg}}>
+                        <div className="web2course-courseContent">
                             <h1 className="web2course-courseContent-head">Introduction to Web3</h1>
                             <p className="web2course-courseContent-prag">Explore how Web3 revolutionizes digital interactions. Learn its core principles, tech, and applications. Step into the future of the internet!</p>
                             <button className="web2course-courseContent-launchbtn">

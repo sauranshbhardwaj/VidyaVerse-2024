@@ -13,9 +13,6 @@ import magnifyGImg from './images/MagnifyingGlass.svg'
 import bulbImg from './images/Lightbulb.svg'
 import currentTestinomialImg from './images/Rectangle 27.png'
 import pedingTestinomialImg from './images/connect-grow-thrive.png'
-import cardImg from "./images/course-offered.jpeg"
-import web3Img from "./images/web3-for-genz.png"
-
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -115,7 +112,7 @@ export default function Dashboard() {
           <div className="connect-right-box position-relative mt-1">
             {/* <div className="connect-outer-penta"></div> */}
 
-            <div className="connect-pentagon" style={{height:"100%", marginTop: "80px"}}>
+            <div className="connect-pentagon" style={{height:"100%"}}>
               <img src={pedingTestinomialImg} alt="" />
             </div>
             {
@@ -161,7 +158,7 @@ export default function Dashboard() {
             </div>
           </div>
           <div className="learn-right-box position-relative">
-            <div className="learn-video-card learn-video-card1" style={{padding:"4px", backgroundImage: cardImg}}>
+            <div className="learn-video-card learn-video-card1" style={{padding:"4px"}}>
               <h1>INTRODUCTION TO WEB3</h1>
             </div>
             {/*<div className="learn-video-card learn-video-card2"></div>
@@ -181,7 +178,7 @@ export default function Dashboard() {
           </a>
         </div>
         <div className="course-offer-carousel d-flex position-absolute ">
-          <div className="course-offer-carousel-card1" style={{backgroundImage: web3Img}}></div>
+          <div className="course-offer-carousel-card1"></div>
           {/*<div className="course-offer-carousel-card1 mx-4"></div>*/}
         </div>
       </section>

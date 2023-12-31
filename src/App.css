@@ -194,7 +194,6 @@
 } */
 .connect-pentagon {
   height: 90px;
-  width: 80px;
   position: absolute;
   clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 78%, 50% 100%, 0 78%);
 }
@@ -494,6 +493,7 @@
   left: 50%;
   transform: translate(-70%, -40%);
   z-index: 3;
+  background-image: url("./images/course-offered.jpeg");
 }
 
 .learn-video-card2 {
@@ -569,6 +569,7 @@
   height: 406px;
   border-radius: 24px;
   border: 0.25px solid var(--stroke, #2D2D2D);
+  background-image: url("./images/web3-for-genz.png");
   background: rgba(246, 246, 246, 0.50);
 }
 
