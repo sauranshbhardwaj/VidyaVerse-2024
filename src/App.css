@@ -494,6 +494,7 @@
   transform: translate(-70%, -40%);
   z-index: 3;
   background-image: url("./images/course-offered.jpeg");
+  background-size: contain;
 }
 
 .learn-video-card2 {
@@ -570,7 +571,7 @@
   border-radius: 24px;
   border: 0.25px solid var(--stroke, #2D2D2D);
   background-image: url("./images/web3-for-genz.png");
-  background: rgba(246, 246, 246, 0.50);
+  background-size: contain;
 }
 
 /* ------ Key Section ----------- */

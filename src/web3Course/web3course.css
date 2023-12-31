@@ -170,6 +170,7 @@ border-left: 2px solid #7A7A7A;
     align-items: center;
     padding: 20px;
     background-image: url("../images/web3-for-genz.png");
+    background-size: cover;
 }
 
 .web2course-courseDesc-video p {

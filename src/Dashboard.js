@@ -159,7 +159,6 @@ export default function Dashboard() {
           </div>
           <div className="learn-right-box position-relative">
             <div className="learn-video-card learn-video-card1" style={{padding:"4px"}}>
-              <h1>INTRODUCTION TO WEB3</h1>
             </div>
             {/*<div className="learn-video-card learn-video-card2"></div>
             <div className="learn-video-card learn-video-card3"></div>*/}
