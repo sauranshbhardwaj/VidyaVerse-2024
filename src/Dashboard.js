@@ -83,7 +83,7 @@ export default function Dashboard() {
           grabCursor={true}
           loop={true}
           autoplay={{
-            delay: 10500,
+            delay: 2000,
             disableOnInteraction: true,
           }}
           modules={[Autoplay]}
