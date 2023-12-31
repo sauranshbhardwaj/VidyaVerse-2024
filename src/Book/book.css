@@ -1,0 +1,84 @@
+.book-parent-div {
+    width: 85%;
+}
+.book-content{
+    width: 650px;
+}
+.book-img-box {
+    position: relative;
+    height: 615px;
+}
+
+.book-img-ecllips {
+    width: 415px;
+    height: 315px;
+    flex-shrink: 0;
+    border-radius: 415px;
+    background: #AD00FF;
+    filter: blur(200px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.book-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    height: 80%;
+}
+
+.book-head {
+    color: #2D2D2D;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%;
+}
+
+.book-prag {
+    color: #2D2D2D;
+    font-size: 19px;
+    font-weight: 400;
+    width: 87%;
+}
+
+.book-head2 {
+    color: #2D2D2D;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 116%;
+    padding-left: 10px;
+}
+
+.book-sell-media {
+    display: flex;
+}
+
+.book-sell-card {
+    width: 189px;
+    height: 130px;
+    border-radius: 8px;
+    border: 0.5px solid #7A7A7A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 5px;
+}
+.book-sell-card svg{
+    width: 139px;
+    height: 38px;
+}
+.book-sell-card-flipcart{
+    width: 148px;
+    height: 45px; 
+}
+
+.book-sell-card img{
+    width: 85px;
+    height:85px;
+}

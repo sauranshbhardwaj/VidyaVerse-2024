@@ -1,0 +1,97 @@
+.Parentnavbar {
+  width: 85%;
+  height: 60px;
+  border-radius: 100px;
+  border: 1px solid #2d2d2d;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0% 10px;
+  align-items: center;
+  background-color: white;
+  z-index: 10000;
+}
+
+.Parentnavbar .navul {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  align-items: center;
+  transform: translateY(30%);
+}
+
+.Parentnavbar .navul li {
+  list-style: none;
+}
+.Parentnavbar .navdiscordBtn {
+  height: 40px;
+  width: 80px;
+  cursor: pointer;
+  /* padding: 8px 20px 8px 20px; */
+  /* border-radius: 100px; */
+}
+
+.Parentnavbar .navbutton {
+  height: 40px;
+  /* width: ; */
+  padding: 8px 20px 8px 20px;
+  border-radius: 100px;
+}
+
+.nav-burger {
+  display: none;
+}
+
+.navbar-menu {
+  position: absolute;
+  /* top: 100%; */
+  top: 0%;
+  background: #000;
+  height: 100vh;
+  width: 98vw;
+  border-radius: 20px;
+  margin-left: -10%;
+  padding: 30px;
+  color: #fff;
+}
+
+.close-navbar-menu{
+  text-align: end;
+}
+.close-navbar-menu span{
+  cursor: pointer;
+}
+
+.navbar-menu-ul li {
+  height: 50px;
+}
+.navbar-menu-btn{
+  margin-left: 30px;
+  height: 40px;
+  width: 130px;
+  padding: 8px 20px 8px 20px;
+  border-radius: 100px;
+}
+@media screen and (max-width:950px) {
+  .Parentnavbar .navul {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .Parentnavbar .navul, .Parentnavbar .navdiscordBtn {
+    display: none;
+  }
+  /* .Parentnavbar .navdiscordBtn {
+
+  } */
+
+  .Parentnavbar .navbutton {
+    display: none;
+  }
+
+  .nav-burger {
+    display: flex;
+  }
+}
