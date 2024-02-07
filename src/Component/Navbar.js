@@ -45,6 +45,16 @@ export default function Navbar() {
               Web3 Course
             </NavLink>
           </li>
+		  <li>
+            <NavLink className={"nav-link"} to="/freeCourse" style={({ isActive }) => {
+              return {
+                fontWeight: isActive ? "bold" : ""
+              };
+            }}>
+
+              Free Course
+            </NavLink>
+          </li>
 
           {/* <li> <NavLink className={"nav-link"} to="/Blog" style={({ isActive }) => {
             return { fontWeight: isActive ? "bold" : "" }

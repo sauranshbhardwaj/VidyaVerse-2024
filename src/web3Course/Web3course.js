@@ -250,8 +250,8 @@ const Web3course = () => {
                     </div>
                     <h1 className="web2course-courseContent-curri-head mt-4">Instructors</h1>
                     <div className="web2course-courseContent-about-inst my-4 d-flex justify-content-center align-items-center p-3 ">
-                        <h1>Coming Soon! </h1>
-                        {/* <div className="web2course-courseContent-inst-img"><img src={Instructor} /></div>
+                        
+                        <div className="web2course-courseContent-inst-img"><img src={Instructor} /></div>
                         <div className="web2course-courseContent-inst-detail">
                             <h2>Sauransh Bharadvaj </h2>
                             <p>Co-founder & Ceo</p>
@@ -276,7 +276,7 @@ const Web3course = () => {
                                     &nbsp;&nbsp;20+ Courses</li>
                             </ul>
                         </div>
-                        <p className="web2course-courseContent-inst-desc">Sauransh is an online entrepreneur who has created 30+ top-rated educational e-courses to the world on new technology topics such as Artificial Intelligence, Machine Learning, Deep Learning, Blockchain and Cryptocurrencies. He is passionate about bringing this knowledge to the world and help as much people as possible. So far more than 1.7 million students have subscribed to his courses.</p> */}
+                        <p className="web2course-courseContent-inst-desc">Sauransh is an online entrepreneur who has created 30+ top-rated educational e-courses to the world on new technology topics such as Artificial Intelligence, Machine Learning, Deep Learning, Blockchain and Cryptocurrencies. He is passionate about bringing this knowledge to the world and help as much people as possible. So far more than 1.7 million students have subscribed to his courses.</p>
                     </div>
                     
                 </div>

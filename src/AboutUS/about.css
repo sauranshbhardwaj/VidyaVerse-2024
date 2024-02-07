@@ -61,7 +61,8 @@
 
 .about-roadmap {
     height: 100%;
-    margin: 5% 0%;
+    margin: 5% auto;
+	width: 90%;
 }
 
 .about-roadmap-title {
@@ -187,7 +188,7 @@
 }
 
 .about-carousel-section {
-    width: 60%;
+    width: 100%;
 }
 
 .about-carousel-section-card {
@@ -196,7 +197,6 @@
 }
 .about-carousel-section-card img {
     height: 100%;
-    width: 100%;
 }
 
 /* --------------- Core Value Section  ----------------*/
@@ -244,7 +244,6 @@
 }
 /* ----------- Stellar Section --------------- */
 .stellar-section {
-    margin-top: 6%;
     width: 90%;
 }
 
@@ -288,7 +287,6 @@
 }
 .stellar-card img{
     width: 100%;
-    height: 100%;
 }
 
 .steller-gallery-content {

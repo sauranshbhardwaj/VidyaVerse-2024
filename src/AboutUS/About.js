@@ -112,7 +112,7 @@ const About = () => {
       <section className="carousel-section ">
         <h3 className="about-carousel-title text-center">We are Trusted by the best!</h3>
         {/* <Carousels /> */}
-        <section className="d-flex justify-content-between about-carousel-section px-5 mx-auto">
+        <section className="d-flex justify-content-center about-carousel-section px-5 mx-auto">
           <div className="about-carousel-section-card">
             <img src={Shardeum} alt="Shardeum" />
           </div>
@@ -145,7 +145,7 @@ const About = () => {
         </div>
       </section>
       {/* ------------------- Stellar Section ------------------- */}
-      <section className="stellar-section mx-auto d-flex justify-content-between">
+      <section className="stellar-section mx-auto d-flex justify-content-between py-4 mx-auto px-5">
         <h1 className="steller-tittle">Our <span className="steller-subtittel">Stellar</span> Team</h1>
         <div className="steller-gallery">
           <div className="steller-gallery-div">

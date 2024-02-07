@@ -6,6 +6,7 @@ import Blog from './Blog/Blog'
 import About from './AboutUS/About'
 import Book from './Book/Book'
 import Web3course from './web3Course/Web3course'
+import Freecourse from './freeCourse/Freecourse'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/About" element={<About/>}/>
         <Route path="/Book" element={<Book/>}/>
         <Route path="/web3course" element={<Web3course/>}/>
+		<Route path="/freecourse" element={<Freecourse/>}/>
     </Routes>
       
     </>
