@@ -40,6 +40,8 @@
   flex-shrink: 0;
   border-radius: 100px;
   border: 0.25px solid #000;
+  text-decoration: none;
+  font-color: black;
 }
 
 .landing-section .landing-astronaut1 {
@@ -193,13 +195,12 @@
   clip-path: polygon(0 25%, 51% 1%, 100% 21%, 98% 78%, 52% 100%, 0 76%);
 } */
 .connect-pentagon {
-  height: 90px;
-  position: absolute;
+  height: auto;
   clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 78%, 50% 100%, 0 78%);
 }
 
 .connect-pentagon img {
-  height: 100%;
+  height: auto;
   width: 100%;
 }
 
@@ -255,8 +256,13 @@
 }
 
 .technology-left-box {
-  width: 100%;
-  height: 50%;
+  width: 50%;
+  height: auto;
+  display: block;
+  float: left;
+}
+.technology-right-box{
+	
 }
 
 .technology-left-box-text {
@@ -287,13 +293,16 @@
 .technology-right-box {
   width: 100%;
   height: 50%;
+  padding-top: 40px;
   /* border: 2px solid blue; */
 }
 
 .technology-type-div {
-  height: 49%;
-  width: 50%;
+  height: auto;
+  width: auto;
   position: relative;
+  margin:0 auto;
+  text-align: right;
 }
 .technology-type-div2 {
   height: 49%;
@@ -302,6 +311,9 @@
   position: relative;
 }
 
+.technology-oval {
+	margin:5px;
+}
 .technology-type-defi {
   display: inline-flex;
   padding: 16px 32px;
@@ -310,20 +322,17 @@
   gap: 4px;
   border-radius: 100px;
   border: 1px solid #000;
-  background: #FFD5B7;
   bottom: 59px;
 }
 
 .technology-type-crypto {
   display: inline-flex;
-  transform: rotate(13.217deg);
   padding: 16px 35px;
   justify-content: center;
   align-items: center;
   gap: 4px;
   border-radius: 100px;
   border: 1px solid #000;
-  background: #8DE5C2;
   left: 92px;
   bottom: 75px;
 }
@@ -336,7 +345,6 @@
   gap: 4px;
   border-radius: 100px;
   border: 1px solid #000;
-  background: #9FD1FB;
   bottom: 0;
 }
 
@@ -348,7 +356,6 @@
   gap: 4px;
   border-radius: 100px;
   border: 1px solid #000;
-  background: #FFD5B7;
   bottom: 0;
   left: 160px;
 }
@@ -371,21 +378,18 @@
   gap: 4px;
   border-radius: 100px;
   border: 1px solid #000;
-  background: #9FD1FB;
   bottom: 60px;
   left: 50px;
 }
 
 .technology-nft {
   display: inline-flex;
-  transform: rotate(17.587deg);
   padding: 16px 32px;
   justify-content: center;
   align-items: center;
   gap: 4px;
   border-radius: 100px;
   border: 1px solid #000;
-  background: #9FD1FB;
   bottom: 57px;
   left: 220px;
 }
@@ -398,7 +402,6 @@
   gap: 4px;
   border-radius: 100px;
   border: 1px solid #000;
-  background: #FFD5B7;
   bottom: 0;
 }
 
@@ -410,7 +413,6 @@
   gap: 4px;
   border-radius: 100px;
   border: 1px solid #000;
-  background: #8DE5C2;
   bottom: 0;
   left: 117px;
 }
@@ -423,7 +425,6 @@
   gap: 4px;
   border-radius: 100px;
   border: 1px solid #000;
-  background: #8DE5C2;
   bottom: 0;
   left: 300px;
 }
@@ -516,10 +517,8 @@
 /* ---------- Course Offer Section ----- */
 
 .offer-course-section {
-  /* padding-left: 30px; */
-  margin-left: 80px;
-  height: 407px;
-  overflow: hidden;
+  height: auto;
+  width: 94%;
 }
 
 .offer-course-section1 {
@@ -547,6 +546,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 180%;
+  padding-bottom:10px;
 }
 
 .offer-course-btn {
@@ -574,10 +574,19 @@
   background-size: contain;
 }
 
+.course-cards{
+  width: auto;
+  overflow: hidden;
+  display: inline;
+}
+.course-cards img{
+	width: 41%;
+	margin-left: 20px;
+}
 /* ------ Key Section ----------- */
 
 .key-section {
-  margin-top: 5%;
+  margin: 5% auto;
 }
 
 .key-section-title {
@@ -753,22 +762,22 @@
     line-height: 107%;
   }
   .explore-box {
-    height: 650px;
+    height: auto;
     flex-direction: column;
   }
   .seating-astro {
     position: absolute;
-    top: -15.7%;
+    top: -20.7%;
     right: 8%;
   }
   .explore-left-div {
     width: 90%;
-    height: 270px;
+    height: auto;
     /* border: 2px solid red; */
     margin: 0% auto;
   }
   .connect-right-box{
-    height: 320px;
+    height: auto;
     width: 33%;
     margin: 0% auto;
   }
@@ -779,8 +788,12 @@
     margin: 0% auto;
   }
   .technology-box {
-    height: 650px;
+    height: auto;
     width: 88%;
+	padding-bottom: 40px;
+  }
+  .technology-left-box{
+	width:100%;
   }
 }
 
@@ -794,24 +807,27 @@
   }
   .key-section-title {
     font-size: 2.3rem;
-    line-height: 90%;
+    line-height: 3.3rem;
   }
   .key-div-container {
     width: 100%;
   }
   .key-img {
-    height: 60px;
-    width: 60px;
+    height: auto;
+    width: 70%;
   }
   .key-head {
     font-size: 2.1rem;
+  }
+  .technology-left-box{
+	width:100%;
   }
 }
 
 @media screen and (max-width:600px) {
   .key-div-container {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
     justify-items: center;
   }
   .key-div {
@@ -821,18 +837,24 @@
     font-size: 2rem;
     line-height: 97%;
   }
+  .technology-left-box{
+	width:100%;
+  }
 }
 
 @media screen and (max-width:500px) {
+	.offer-course-section{
+		text-align: center;
+	}
   .landing-section .landing-astronaut1 {
     width: 101px;
     height: 100px;
-    top: 62%;
-    left: 10%;
+    top: 68%;
+    left: 3%;
   }
 
   .landing-section .landing-astronaut2 {
-    bottom: 18%;
+    bottom: 12%;
     right: 13%;
     width: 101px;
     height: 100px;
@@ -844,6 +866,28 @@
   .key-div {
     width: 130px;
   }
+  .technology-left-pra-text{
+	  width:auto;
+  }
+  .seating-astro{
+	  width: 20%;
+	  top: -74px;
+  }
+  .technology-oval{
+	  padding:16px 27px !important;
+	  margin: 2px;
+  }
+  .technology-type-div{
+	  width: auto;
+	  text-align: center;
+  }
+  .technology-left-box{
+	width:100%;
+  }
+  .offer-course-section1{
+	  width: 100%;
+  }
+  
 }
 
 
@@ -861,5 +905,8 @@
   }
   .key-div {
     width: 100%;
+  }
+  .technology-left-pra-text{
+	  width:auto;
   }
 }

@@ -13,6 +13,7 @@ import magnifyGImg from './images/MagnifyingGlass.svg'
 import bulbImg from './images/Lightbulb.svg'
 import currentTestinomialImg from './images/Rectangle 27.png'
 import pedingTestinomialImg from './images/connect-grow-thrive.png'
+import masterCourseImg from './images/master-course.png'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -104,7 +105,7 @@ export default function Dashboard() {
         <h1 className="explore-heading text-center">Explore <span className="explore-subheading">VidyaVerse</span></h1>
         <div className="position-relative explore-box connect-box mx-auto px-5 py-4 d-flex justify-content-between">
           <img className="seating-astro" src={SeatingAstro} alt="Seating Astronaut" />
-          <div className="explore-left-div connect-left-box d-flex flex-column justify-content-between pb-5">
+          <div className="explore-left-div connect-left-box d-flex flex-column justify-content-between">
             <h3 className="connect-left-box-text"><span className="connect-left-box-subtext">Connect.</span> Grow. Thrive</h3>
             <p className="connect-left-pra-text"> Here at Vidyaverse, Engage with the like-minded WEB3 enthusiast. Connect with more people & Build !!</p>
             <p className="connect-left-pra-text2">Learn new skills for WEB3 Era, Understand the future of it. Upskill your WEB3 Knowledge.</p>
@@ -112,7 +113,7 @@ export default function Dashboard() {
           <div className="connect-right-box position-relative mt-1">
             {/* <div className="connect-outer-penta"></div> */}
 
-            <div className="connect-pentagon" style={{height:"100%"}}>
+            <div className="connect-pentagon">
               <img src={pedingTestinomialImg} alt="" />
             </div>
             {
@@ -131,60 +132,46 @@ export default function Dashboard() {
             <p className="technology-left-pra-text">Find the best Course to learn new technologies in WEB3 Space</p>
             <p className="technology-left-pra-text2">Interested learning? <a href="/web3course">Enroll now</a></p>
           </div>
-          <div className="technology-right-box  d-flex align-items-end">
+          <div className="technology-right-box">
             <div className="technology-type-div position-relative">
-              <div className="position-absolute technology-type-defi">DeFi</div>
-              <div className="position-absolute technology-type-crypto">Cryptocurrency</div>
-              <div className="position-absolute technology-type-web3">WEB3 Wallet</div>
-              <div className="position-absolute technology-type-decen">Decentralized Storage</div>
-            </div>
-            <div className='technology-type-div2'>
-              <div className="position-absolute technology-blockchain">Blockchain</div>
-              <div className="position-absolute technology-nft">NFTs</div>
-              <div className="position-absolute technology-dapps">dApps</div>
-              <div className="position-absolute technology-privacy">Privacy Coins</div>
-              <div className="position-absolute technology-dex">DEXs</div>
+              <div className="technology-oval technology-type-defi">DeFi</div>
+              <div className="technology-oval technology-type-crypto">Cryptocurrency</div>
+			  <div className="technology-oval technology-nft">NFTs</div>
+              <div className="technology-oval technology-type-web3">WEB3 Wallet</div>
+              <div className="technology-oval technology-type-decen">Decentralized Storage</div>
+              <div className="technology-oval technology-blockchain">Blockchain</div>
+              <div className="technology-oval technology-dapps">dApps</div>
+              <div className="technology-oval technology-privacy">Privacy Coins</div>
+              <div className="technology-oval technology-dex">DEXs</div>
             </div>
           </div>
         </div>
-        <div className="explore-box learn-box mx-auto my-5 px-5 py-4 d-flex justify-content-between">
-          <div className="explore-left-div learn-left-box d-flex flex-column justify-content-between">
-            <h3 className="learn-left-box-text"><span className="learn-left-box-subtext">Learn</span> and Fun</h3>
-            <div>
-              <p className="learn-left-box-pra-text">Courses curated such that even a beginner can dive into the WEB3 space easily.</p>
-              <a className="learn-btn" href='/web3course'>View Courses
-                <img src={arrowIcon} alt="arrow icon btn" className="mx-2" />
-              </a>
-            </div>
-          </div>
-          <div className="learn-right-box position-relative">
-            <div className="learn-video-card learn-video-card1" style={{padding:"4px"}}>
-            </div>
-            {/*<div className="learn-video-card learn-video-card2"></div>
-            <div className="learn-video-card learn-video-card3"></div>*/}
-          </div>
-        </div>
+        
       </section>
 
       {/* -------------- Course Offer Section ----------- */}
 
-      <section className="offer-course-section mt-5 position-relative">
+      <section className="offer-course-section mt-5 position-relative px-5 my-5 mx-auto">
         <div className="offer-course-section1">
-          <p className="course-offer-title"> The <span className="courses-text-color">Courses</span> <br />we offer</p>
+          <p className="course-offer-title pb-md-2"> The <span className="courses-text-color">Courses</span> <br />we offer</p>
           <p className="course-offer-text">Embark on a transformative Web3 learning experience. Explore decentralized technologies, collaborate with experts, and unlock limitless possibilities.</p>
           <a className="offer-course-btn d-inline" href='/web3course'>Enroll Now
             <img src={arrowIcon} alt="arrow icon btn" className="mx-2" />
           </a>
         </div>
-        <div className="course-offer-carousel d-flex position-absolute ">
-          <div className="course-offer-carousel-card1"></div>
-          {/*<div className="course-offer-carousel-card1 mx-4"></div>*/}
-        </div>
+        {/*<div className="course-offer-carousel">
+          <div className="course-cards">
+			<img src={masterCourseImg} alt="Current testinomial image" />
+		  </div>
+		  <div className="course-cards">
+			<img src={masterCourseImg} alt="Current testinomial image" />
+		  </div>
+        </div>*/}
       </section>
 
       {/* -------------- Key Section --------------------- */}
-      <section className="key-section ">
-        <h1 className="key-section-title text-center">Key <span className="key-section-subtitle">Numbers</span> to know</h1>
+      <section className="key-section mt-5 mt-auto px-5 py-4">
+        <h2 className="key-section-title text-center">Key <span className="key-section-subtitle">Numbers</span> to know</h2>
         <div className="key-div-container ">
           <div className="key-div d-flex flex-column align-items-center justify-content-center">
             <img className="key-img" src={handshakeImg} alt="Handsacking img" />
