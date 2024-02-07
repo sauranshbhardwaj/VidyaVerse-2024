@@ -82,6 +82,9 @@
     padding: 10px 20px 0px 20px;
     color: rgba(122, 122, 122, 1);
   }
+  .footer-program-ul{
+	  padding-left: 0;
+  }
 
 
 }
