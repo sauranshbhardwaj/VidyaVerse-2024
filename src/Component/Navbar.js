@@ -102,19 +102,21 @@ export default function Navbar() {
                   }}>Home</NavLink>
                 </li>
                 <li>
-                  <NavLink className={"nav-link"} to="/About" style={({ isActive }) => {
+                  <NavLink className={"nav-link"} to="/book" style={({ isActive }) => {
                     return { fontWeight: isActive ? "bold" : "" }
-                  }}> About us </NavLink>
+                  }}> Web3 Book </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className={"nav-link"} to="/contact" style={({ isActive }) => {
+                  <NavLink className={"nav-link"} to="/web3course" style={({ isActive }) => {
                     return { fontWeight: isActive ? "bold" : "" }
-                  }}>Contact</NavLink>
+                  }}>Web3 Course</NavLink>
                 </li>
-                <li> <NavLink className={"nav-link"} to="/Blog" style={({ isActive }) => {
+                <li> <NavLink className={"nav-link"} to="/freeCourse" style={({ isActive }) => {
                   return { fontWeight: isActive ? "bold" : "" }
-                }}>  Blog</NavLink></li>
-                <li>Ambassador</li>
+                }}>  Free Course</NavLink></li>
+                <li> <NavLink className={"nav-link"} to="/About" style={({ isActive }) => {
+                  return { fontWeight: isActive ? "bold" : "" }
+                }}>  About Us</NavLink></li>
               </ul>
               {/* <img src={discordLogo} alt="Discord logo"/> */}
               <button className="navbar-menu-btn bg-white text-dark">Login</button>

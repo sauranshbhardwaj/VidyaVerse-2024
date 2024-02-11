@@ -249,7 +249,38 @@ border-left: 2px solid #7A7A7A;
     align-items: center;
 
 }
-.accord-title{
-}
-.accord-open{
+
+@media screen and (max-width:600px) {
+	.web2course-container .web2course-course{
+		display: block;
+	}
+	.web2course-course .web2course-courseContent{
+		width: auto;
+	}
+	.web2course-course .web2course-courseDesc{
+		width: auto;
+		margin-top: 20px;
+	}
+	.web2course-courseContent-about-inst .web2course-courseContent-inst-img{
+		width: 80%;
+		display: block;
+		height: auto;
+		text-align: center;
+		margin: auto;
+	}
+	.web2course-courseContent-about-inst .web2course-courseContent-inst-detail{
+		width:100%;
+		border: none;
+		text-align: left;
+	}
+	.web2course-courseContent-about-inst .web2course-courseContent-inst-desc{
+		width: 100%;
+		text-align: left;
+		margin-left: 0;
+		padding-left: 0;
+	}
+	.web2course-courseContent-about-inst{
+		display: block!important;
+	}
+	
 }
