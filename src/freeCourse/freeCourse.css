@@ -118,11 +118,13 @@ border: 0.5px solid #7A7A7A;
 }
 .web2course-courseContent-inst-img{
     width: 20%;
-height: 214px;
+	height: 214px;
+	overflow: hidden;
+	margin-right: 2%;
 }
 .web2course-courseContent-inst-img img{
-    height: 100%;
-    width: auto;
+    height: auto;
+    width: 100%;
 }
 .web2course-courseContent-inst-detail{
 margin-left: 0;
@@ -142,7 +144,7 @@ font-weight: 700;
 }
 
 .web2course-courseContent-inst-detail  ul li{
-    height: 30px;
+    height: auto;
 }
 .web2course-courseContent-inst-desc{
     width: 60%;
@@ -183,6 +185,7 @@ border-left: 0;
 
 .web2course-courseDesc-price {
     align-items: center;
+    text-align: center;
 }
 
 .web2course-courseDesc-video-rupee {
@@ -192,6 +195,8 @@ border-left: 0;
 
 .web2course-courseDesc-video-delrupee {
     color: #AFAFAF;
+    text-align: center;
+    display: inline-block;
 }
 
 .web2course-courseDesc-video-off {
