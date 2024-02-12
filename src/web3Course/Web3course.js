@@ -10,33 +10,203 @@ import Instructor from '../images/steller-img1.png'
 const courses = [
     {
         id: 1,
-        time: "Coming Soon 1",
+        time: "3 Chapters / 23 Episodes",
         header: "Introduction to the Web3",
-        text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.`
+        text: <div>
+                <div className="flexbox">
+                    <h6 style={{textAlign:"left"}}>The Story of Web1</h6>
+                    <p style={{textAlign:"right"}}>Episodes: 7</p>
+                </div>
+                <div className="flexbox">
+                    <h6 style={{textAlign:"left"}}>The Story of Web2</h6>
+                    <p style={{textAlign:"right"}}>Episodes: 9</p>
+                </div>
+                <div className="flexbox">
+                    <h6 style={{textAlign:"left"}}>Difference between Web2 and Web3</h6>
+                    <p style={{textAlign:"right"}}>Episodes: 7</p>
+                </div>
+            </div>
     },
     {
         id: 2,
-        time: "Coming Soon 2",
+        time: "16 Chapters / 98 Episodes",
         header: "Blockchain Technology",
-        text: `It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. `
-    },
+        text: <div>
+            <div className="flexbox">
+                <h6 style={{textAlign:"left"}}>Client-Server Model Explanation</h6>
+                <p style={{textAlign:"right"}}>Episodes: 7</p>
+            </div>
+            <div className="flexbox">
+                <h6 style={{textAlign:"left"}}>P2P Model Explanation</h6>
+                <p style={{textAlign:"right"}}>Episodes: 5</p>
+            </div>
+            <div className="flexbox">
+                <h6 style={{textAlign:"left"}}>Case Study of Instagram</h6>
+                <p style={{textAlign:"right"}}>Episodes: 6</p>
+            </div>
+            <div className="flexbox">
+                <h6 style={{textAlign:"left"}}>Case Study of U-Torrent</h6>
+                <p style={{textAlign:"right"}}>Episodes: 7</p>
+            </div>
+            <div className="flexbox">
+                <h6 style={{textAlign:"left"}}>Open Source Project</h6>
+                <p style={{textAlign:"right"}}>Episodes: 6</p>
+            </div>
+            <div className="flexbox">
+                <h6 style={{textAlign:"left"}}>What is Ledger?</h6>
+                <p style={{textAlign:"right"}}>Episodes: 6</p>
+            </div>
+            <div className="flexbox">
+                <h6 style={{textAlign:"left"}}>What is Immutability?</h6>
+                <p style={{textAlign:"right"}}>Episodes: 6</p>
+            </div>
+            <div className="flexbox">
+                <h6 style={{textAlign:"left"}}>What is Cryptography?</h6>
+                <p style={{textAlign:"right"}}>Episodes: 8</p>
+            </div>
+            <div className="flexbox">
+                <h6 style={{textAlign:"left"}}>What is SHA-256?</h6>
+                <p style={{textAlign:"right"}}>Episodes: 7</p>
+            </div>
+            <div className="flexbox">
+                <h6 style={{textAlign:"left"}}>What is a Block?</h6>
+                <p style={{textAlign:"right"}}>Episodes: 6</p>
+            </div>
+            <div className="flexbox">
+                <h6 style={{textAlign:"left"}}>What is Blockchain?</h6>
+                <p style={{textAlign:"right"}}>Episodes: 6</p>
+            </div>
+            <div className="flexbox">
+                <h6 style={{textAlign:"left"}}>Different Census Mechanisms in Blockchain</h6>
+                <p style={{textAlign:"right"}}>Episodes: 5</p>
+            </div>
+            <div className="flexbox">
+                <h6 style={{textAlign:"left"}}>Public and Private Blockchain</h6>
+                <p style={{textAlign:"right"}}>Episodes: 5</p>
+            </div>
+            <div className="flexbox">
+                <h6 style={{textAlign:"left"}}>Layer 1 and Layer 2 Blockchain</h6>
+                <p style={{textAlign:"right"}}>Episodes: 6</p>
+            </div>
+            <div className="flexbox">
+                <h6 style={{textAlign:"left"}}>Case Study of Ethereum</h6>
+                <p style={{textAlign:"right"}}>Episodes: 6</p>
+            </div>
+            <div className="flexbox">
+                <h6 style={{textAlign:"left"}}>Case Study of Polygon</h6>
+                <p style={{textAlign:"right"}}>Episodes: 6</p>
+            </div>  
+        </div>
+        },
+        
     {
         id: 3,
-        time: "Coming Soon 3",
+        time: "12 Chapters / 69 Episodes",
         header: "Cryptocurrencies",
-        text: `Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature,`
+        text: <div>
+        <div className="flexbox">
+            <h6 style={{textAlign:"left"}}>How does the Banking System work?</h6>
+            <p style={{textAlign:"right"}}>Episodes: 6</p>
+        </div>
+        <div className="flexbox">
+            <h6 style={{textAlign:"left"}}>What are Cryptocurrencies?</h6>
+            <p style={{textAlign:"right"}}>Episodes: 6</p>
+        </div>
+        <div className="flexbox">
+            <h6 style={{textAlign:"left"}}>Case Study of Bitcoin</h6>
+            <p style={{textAlign:"right"}}>Episodes: 6</p>
+        </div>
+        <div className="flexbox">
+            <h6 style={{textAlign:"left"}}>Case Study of Solana</h6>
+            <p style={{textAlign:"right"}}>Episodes: 7</p>
+        </div>
+        <div className="flexbox">
+            <h6 style={{textAlign:"left"}}>Case Study of USDT</h6>
+            <p style={{textAlign:"right"}}>Episodes: 6</p>
+        </div>
+        <div className="flexbox">
+            <h6 style={{textAlign:"left"}}>Case Study of Dogecoin</h6>
+            <p style={{textAlign:"right"}}>Episodes: 7</p>
+        </div>
+        <div className="flexbox">
+            <h6 style={{textAlign:"left"}}>How to setup a Metamask Account?</h6>
+            <p style={{textAlign:"right"}}>Episodes: 1</p>
+        </div>
+        <div className="flexbox">
+            <h6 style={{textAlign:"left"}}>How to Buy Cryptocurrency?</h6>
+            <p style={{textAlign:"right"}}>Episodes: 8</p>
+        </div>
+        <div className="flexbox">
+            <h6 style={{textAlign:"left"}}>What is Private Key?</h6>
+            <p style={{textAlign:"right"}}>Episodes: 6</p>
+        </div>
+        <div className="flexbox">
+            <h6 style={{textAlign:"left"}}>What is Public Key?</h6>
+            <p style={{textAlign:"right"}}>Episodes: 5</p>
+        </div>
+        <div className="flexbox">
+            <h6 style={{textAlign:"left"}}>How to make transactions in Crypto?</h6>
+            <p style={{textAlign:"right"}}>Episodes: 6</p>
+        </div>
+        <div className="flexbox">
+            <h6 style={{textAlign:"left"}}>Blockchain Explorer</h6>
+            <p style={{textAlign:"right"}}>Episodes: 5</p>
+        </div>        
+    </div>
     },
     {
         id: 4,
-        time: "Coming Soon 4",
+        time: "2 Chapters / 13 Episodes",
         header: "Smart Contract",
-        text: `There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.`
+        text: <div>
+                <div className="flexbox">
+                    <h6 style={{textAlign:"left"}}>What are Smart Contracts?</h6>
+                    <p style={{textAlign:"right"}}>Episodes: 6</p>
+                </div>
+                <div className="flexbox">
+                    <h6 style={{textAlign:"left"}}>Languages used in Smart Contract Development</h6>
+                    <p style={{textAlign:"right"}}>Episodes: 7</p>
+                </div>
+            </div>
     },
     {
         id: 5,
-        time: "Coming Soon 4",
+        time: "8 Chapters / 51 Episodes",
         header: "DApps, DeFi, Web3 Gaming, etc.",
-        text: `There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.`
+        text: <div>
+                <div className="flexbox">
+                    <h6 style={{textAlign:"left"}}>What is DApp?</h6>
+                    <p style={{textAlign:"right"}}>Episodes: 7</p>
+                </div>
+                <div className="flexbox">
+                    <h6 style={{textAlign:"left"}}>What is DeFi?</h6>
+                    <p style={{textAlign:"right"}}>Episodes: 7</p>
+                </div>
+                <div className="flexbox">
+                    <h6 style={{textAlign:"left"}}>Case Study of DeFi Protocol: UniSwap</h6>
+                    <p style={{textAlign:"right"}}>Episodes: 7</p>
+                </div>
+                <div className="flexbox">
+                    <h6 style={{textAlign:"left"}}>What are NFTs?</h6>
+                    <p style={{textAlign:"right"}}>Episodes: 6</p>
+                </div>
+                <div className="flexbox">
+                    <h6 style={{textAlign:"left"}}>Case Study of an NFT Project: BAYC</h6>
+                    <p style={{textAlign:"right"}}>Episodes: 8</p>
+                </div>
+                <div className="flexbox">
+                    <h6 style={{textAlign:"left"}}>Web3 Gaming</h6>
+                    <p style={{textAlign:"right"}}>Episodes: 6</p>
+                </div>
+                <div className="flexbox">
+                    <h6 style={{textAlign:"left"}}>Web3 Social Media</h6>
+                    <p style={{textAlign:"right"}}>Episodes: 7</p>
+                </div>
+                <div className="flexbox">
+                    <h6 style={{textAlign:"left"}}>Supply Chain Management</h6>
+                    <p style={{textAlign:"right"}}>Episodes: 3</p>
+                </div>
+            </div>
     }
 ]
 
