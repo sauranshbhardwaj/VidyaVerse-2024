@@ -1,13 +1,78 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import './freeCourse.css'
 import Navbar from "../Component/Navbar";
 import Footer from "../Component/Footer";
 import sealCheck from '../images/SealCheck.svg'
 import Instructor from '../images/steller-img1.png'
 
+
+const courses = [
+    {
+        id: 1,
+        time: "Coming Soon 1",
+        header: "What is Lorem Ipsum?",
+        text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.`
+    },
+    {
+        id: 2,
+        time: "Coming Soon 2",
+        header: "Where does it come from?",
+        text: `It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. `
+    },
+    {
+        id: 3,
+        time: "Coming Soon 3",
+        header: "Why do we use it?",
+        text: `Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature,`
+    },
+    {
+        id: 4,
+        time: "Coming Soon 4",
+        header: "Where can I get some?",
+        text: `There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.`
+    }
+]
+
+const AccordionItem = (props) => {
+    const contentEl = useRef();
+    const { handleToggle, active, course } = props;
+    const { header, id, text, time} = course;
+
+    return (
+        <div className="rc-accordion-card">
+            <div className="rc-accordion-header">
+                <div className={`rc-accordion-toggle px-5 p-3 d-flex justify-content-between align-items-center px-5 w-100 web2course-courseContent-curri-row ${active === id ? 'active' : ''}`} onClick={() => handleToggle(id)}>
+                    <span className="">
+                        <i className="fa fa-chevron-down rc-accordion-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20.0307 9.53063L12.5307 17.0306C12.4611 17.1004 12.3784 17.1557 12.2873 17.1934C12.1963 17.2312 12.0987 17.2506 12.0001 17.2506C11.9015 17.2506 11.8039 17.2312 11.7129 17.1934C11.6218 17.1557 11.5391 17.1004 11.4695 17.0306L3.96948 9.53063C3.86447 9.42573 3.79294 9.29204 3.76396 9.14648C3.73497 9.00092 3.74982 8.85002 3.80664 8.71291C3.86345 8.57579 3.95967 8.45861 4.08312 8.37621C4.20656 8.29381 4.35168 8.24988 4.5001 8.25H19.5001C19.6485 8.24988 19.7936 8.29381 19.9171 8.37621C20.0405 8.45861 20.1368 8.57579 20.1936 8.71291C20.2504 8.85002 20.2652 9.00092 20.2362 9.14648C20.2073 9.29204 20.1357 9.42573 20.0307 9.53063Z" fill="#AD00FF"></path></svg></i>
+                        {header}
+                    </span>
+                    <span> {time} </span>
+
+                </div>
+            </div>
+            <div ref={contentEl} className={`rc-collapse ${active === id ? 'show' : ''}`} style={
+                active === id
+                    ? { height: contentEl.current.scrollHeight }
+                    : { height: "0px" }
+            }>
+                <div className="rc-accordion-body">
+                    <p className='mb-0'>{text}</p>
+                </div>
+            </div>
+        </div>
+    )
+}
+
 const Freecourse = () => {
-    const [conetAr, setContentArr] = useState(['Introduction to the Free', 'Blockchain Technology', 'Cryptocurrencies', 'Smart Contract', 'DApps, DeFi, Free Gaming, etc.'])
-    let bgColor = false;
+    const [active, setActive] = useState(null);
+
+    const handleToggle = (index) => {
+        if (active === index) {
+            setActive(null);
+        } else {
+            setActive(index);
+        }
+    }
     return (
         <div style={{ paddingTop: "20px" }}>
             <Navbar />
@@ -226,29 +291,27 @@ const Freecourse = () => {
                                 <span className="mx-2">20 hours</span>
                             </span>
                         </div>
-                        <div>
+                        {/*<div>
                             <span>Expand all Modules</span> &nbsp;
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                 <path d="M16.6922 7.94219L10.4422 14.1922C10.3841 14.2503 10.3152 14.2964 10.2393 14.3279C10.1635 14.3593 10.0821 14.3755 10 14.3755C9.91787 14.3755 9.83654 14.3593 9.76067 14.3279C9.68479 14.2964 9.61586 14.2503 9.55782 14.1922L3.30782 7.94219C3.22031 7.85478 3.1607 7.74337 3.13655 7.62207C3.11239 7.50076 3.12477 7.37502 3.17211 7.26076C3.21946 7.14649 3.29964 7.04884 3.40252 6.98017C3.50539 6.91151 3.62632 6.8749 3.75 6.875H16.25C16.3737 6.8749 16.4946 6.91151 16.5975 6.98017C16.7004 7.04884 16.7805 7.14649 16.8279 7.26076C16.8752 7.37502 16.8876 7.50076 16.8635 7.62207C16.8393 7.74337 16.7797 7.85478 16.6922 7.94219Z" fill="#AD00FF" />
                             </svg>
-                        </div>
+                        </div>*/}
                     </div>
-<div className="web2course-courseContent-curri-table">
-                        {
-                            conetAr.map((item, index) => {
-                                bgColor = !bgColor;
-                                return (<div className={`d-flex justify-content-between align-items-center px-5 w-100 web2course-courseContent-curri-row ${bgColor && 'web2course-courseContent-curri-row-bg'}`}>
-                                    <span className="">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                            <path d="M20.0307 9.53063L12.5307 17.0306C12.4611 17.1004 12.3784 17.1557 12.2873 17.1934C12.1963 17.2312 12.0987 17.2506 12.0001 17.2506C11.9015 17.2506 11.8039 17.2312 11.7129 17.1934C11.6218 17.1557 11.5391 17.1004 11.4695 17.0306L3.96948 9.53063C3.86447 9.42573 3.79294 9.29204 3.76396 9.14648C3.73497 9.00092 3.74982 8.85002 3.80664 8.71291C3.86345 8.57579 3.95967 8.45861 4.08312 8.37621C4.20656 8.29381 4.35168 8.24988 4.5001 8.25H19.5001C19.6485 8.24988 19.7936 8.29381 19.9171 8.37621C20.0405 8.45861 20.1368 8.57579 20.1936 8.71291C20.2504 8.85002 20.2652 9.00092 20.2362 9.14648C20.2073 9.29204 20.1357 9.42573 20.0307 9.53063Z" fill="#AD00FF" />
-                                        </svg>&nbsp;
-                                        {item}</span>
-                                    <span>Coming Soon!</span></div>)
 
-                            })
-                        }
-                    </div>                    
+                        <div className="web2course-courseContent-curri-table">
 
+                        {courses.map((course, index) => {
+                                         return (
+                                                <AccordionItem key={index} active={active} handleToggle={handleToggle} course={course} />
+                                            )
+                                        })
+                                    }
+                        </div>
+                    
+
+                    
+                        
                     <h1 className="web2course-courseContent-curri-head mt-4">Instructors</h1>
                     <div className="web2course-courseContent-about-inst my-4 d-flex justify-content-center align-items-center p-3 ">
                         <div className="web2course-courseContent-inst-img"><img src={Instructor} /></div>

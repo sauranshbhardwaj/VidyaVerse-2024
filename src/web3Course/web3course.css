@@ -251,6 +251,10 @@ border-left: 2px solid #7A7A7A;
 }
 
 @media screen and (max-width:600px) {
+    .web2course-courseContent-curri-row{
+        padding-left: 1em!important;
+        padding-right: 1em!important;
+    }
 	.web2course-container .web2course-course{
 		display: block;
 	}

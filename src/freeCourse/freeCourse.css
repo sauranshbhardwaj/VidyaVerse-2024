@@ -255,3 +255,84 @@ border-left: 0;
     align-items: center;
 
 }
+
+/*Accordion CSS*/
+/* ------------ */
+.text-primary{
+    color : #5a8dee !important;
+}
+.card {
+     box-shadow: 0px 5px 10px rgba(90, 116, 148, 0.3);
+    background-color: #fff;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    overflow: hidden;
+}
+.rc-accordion-toggle {
+    cursor: pointer;
+    transition: 0.3s;
+}
+.rc-accordion-icon{
+    transition: 0.35s;
+    font-size: 12px;
+    padding-right: 5px;
+    position: relative;
+    color: #475F7B;
+}
+.rc-accordion-toggle.active{
+    background-color: #E7E9EB;
+}
+.rc-accordion-toggle .rc-accordion-icon svg{
+    transform: rotate(270deg);
+}
+.rc-accordion-toggle.active .rc-accordion-icon svg{
+    transform: rotate(0deg);
+}
+.rc-accordion-card{
+   /* border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;*/
+    overflow: hidden;
+}
+.rc-accordion-card:last-child{
+    margin-bottom: 0;
+}
+.rc-accordion-title{
+    font-weight: 500;
+    font-size: 14px;
+    position: relative;
+    margin-bottom: 0;
+    transition: 0.3s;
+}
+.rc-accordion-toggle.active .rc-accordion-title{
+    color: #fff;
+}
+
+.rc-accordion-body{
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 15px;
+}
+.rc-accordion-body p{
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.rc-collapse{
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.35s ease;
+}
+.rc-collapse.show{
+    height: auto;
+}
+
+
+
+.rc-accordion-card:nth-child(odd){
+    background: #F6F6F6;
+}
