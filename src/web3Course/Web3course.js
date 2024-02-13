@@ -3,7 +3,9 @@ import './web3course.css'
 import Navbar from "../Component/Navbar";
 import Footer from "../Component/Footer";
 import sealCheck from '../images/SealCheck.svg'
-import Instructor from '../images/steller-img1.png'
+import Sauransh from '../images/sauransh.jpeg'
+import Chirag from '../images/chirag.png'
+import Yashika from '../images/yashika.png'
 
 
 
@@ -255,10 +257,10 @@ const Web3course = () => {
             <Navbar />
             <section className="mt-2 contact-section mb-2 mx-1" >
                 <div className="web2course-container m-auto">
-                    <p className="web2course-course-enroll mt-5"><span className="web2course-course-subenroll">20 hours course</span> <strong>// Course Enroll //</strong></p>
+                    <p className="web2course-course-enroll mt-5"><span className="web2course-course-subenroll">Web3 Course</span> <strong>// Course Enroll //</strong></p>
                     <div className="web2course-course">
                         <div className="web2course-courseContent">
-                            <h1 className="web2course-courseContent-head">Introduction to Web3</h1>
+                            <h1 className="web2course-courseContent-head">Web3 for GenZ: Master Course</h1>
                             <p className="web2course-courseContent-prag">Explore how Web3 revolutionizes digital interactions. Learn its core principles, tech, and applications. Step into the future of the internet!</p>
                             <button className="web2course-courseContent-launchbtn">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="19" height="20" viewBox="0 0 19 20" fill="none">
@@ -267,7 +269,7 @@ const Web3course = () => {
                                 <span>New Launch</span>
                             </button>
                             <p className="mt-3">Created by <a className="web2course-courseContent-owner">VidyaVerse</a></p>
-                            <div>
+                            {/* <div>
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
                                         <path d="M21.1744 10.1394C20.8209 9.77 20.4553 9.38938 20.3175 9.05469C20.19 8.74813 20.1825 8.24 20.175 7.74781C20.1609 6.83281 20.1459 5.79594 19.425 5.075C18.7041 4.35406 17.6672 4.33906 16.7522 4.325C16.26 4.3175 15.7519 4.31 15.4453 4.1825C15.1116 4.04469 14.73 3.67906 14.3606 3.32562C13.7137 2.70406 12.9788 2 12 2C11.0212 2 10.2872 2.70406 9.63937 3.32562C9.27 3.67906 8.88938 4.04469 8.55469 4.1825C8.25 4.31 7.74 4.3175 7.24781 4.325C6.33281 4.33906 5.29594 4.35406 4.575 5.075C3.85406 5.79594 3.84375 6.83281 3.825 7.74781C3.8175 8.24 3.81 8.74813 3.6825 9.05469C3.54469 9.38844 3.17906 9.77 2.82562 10.1394C2.20406 10.7863 1.5 11.5212 1.5 12.5C1.5 13.4788 2.20406 14.2128 2.82562 14.8606C3.17906 15.23 3.54469 15.6106 3.6825 15.9453C3.81 16.2519 3.8175 16.76 3.825 17.2522C3.83906 18.1672 3.85406 19.2041 4.575 19.925C5.29594 20.6459 6.33281 20.6609 7.24781 20.675C7.74 20.6825 8.24813 20.69 8.55469 20.8175C8.88844 20.9553 9.27 21.3209 9.63937 21.6744C10.2863 22.2959 11.0212 23 12 23C12.9788 23 13.7128 22.2959 14.3606 21.6744C14.73 21.3209 15.1106 20.9553 15.4453 20.8175C15.7519 20.69 16.26 20.6825 16.7522 20.675C17.6672 20.6609 18.7041 20.6459 19.425 19.925C20.1459 19.2041 20.1609 18.1672 20.175 17.2522C20.1825 16.76 20.19 16.2519 20.3175 15.9453C20.4553 15.6116 20.8209 15.23 21.1744 14.8606C21.7959 14.2137 22.5 13.4788 22.5 12.5C22.5 11.5212 21.7959 10.7872 21.1744 10.1394ZM11.25 8C11.25 7.80109 11.329 7.61032 11.4697 7.46967C11.6103 7.32902 11.8011 7.25 12 7.25C12.1989 7.25 12.3897 7.32902 12.5303 7.46967C12.671 7.61032 12.75 7.80109 12.75 8V13.25C12.75 13.4489 12.671 13.6397 12.5303 13.7803C12.3897 13.921 12.1989 14 12 14C11.8011 14 11.6103 13.921 11.4697 13.7803C11.329 13.6397 11.25 13.4489 11.25 13.25V8ZM12 17.75C11.7775 17.75 11.56 17.684 11.375 17.5604C11.19 17.4368 11.0458 17.2611 10.9606 17.0555C10.8755 16.85 10.8532 16.6238 10.8966 16.4055C10.94 16.1873 11.0472 15.9868 11.2045 15.8295C11.3618 15.6722 11.5623 15.565 11.7805 15.5216C11.9988 15.4782 12.225 15.5005 12.4305 15.5856C12.6361 15.6708 12.8118 15.815 12.9354 16C13.059 16.185 13.125 16.4025 13.125 16.625C13.125 16.9234 13.0065 17.2095 12.7955 17.4205C12.5845 17.6315 12.2984 17.75 12 17.75Z" fill="#B519FF" />
@@ -286,7 +288,7 @@ const Web3course = () => {
                                     </svg>
                                     <span className="mx-2">English, Hindi, Gujarati</span>
                                 </span>
-                            </div>
+                            </div> */}
                             {/* what you lear */}
                             <div className="web2course-courseContent-learn mt-4">
                                 <h1 className="web2course-courseContent-learn-head">What you’ll learn</h1>
@@ -332,13 +334,13 @@ const Web3course = () => {
                                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                                 <path d="M10 1.875C8.39303 1.875 6.82214 2.35152 5.486 3.24431C4.14985 4.1371 3.10844 5.40605 2.49348 6.8907C1.87852 8.37535 1.71762 10.009 2.03112 11.5851C2.34463 13.1612 3.11846 14.6089 4.25476 15.7452C5.39106 16.8815 6.8388 17.6554 8.4149 17.9689C9.99099 18.2824 11.6247 18.1215 13.1093 17.5065C14.594 16.8916 15.8629 15.8502 16.7557 14.514C17.6485 13.1779 18.125 11.607 18.125 10C18.1223 7.84594 17.2654 5.78088 15.7423 4.25773C14.2191 2.73457 12.1541 1.87769 10 1.875ZM12.8469 10.5203L9.09688 13.0203C8.99403 13.0885 8.87339 13.1249 8.75 13.125C8.58424 13.125 8.42527 13.0592 8.30806 12.9419C8.19085 12.8247 8.125 12.6658 8.125 12.5V7.5C8.12493 7.38682 8.15559 7.27575 8.21371 7.17863C8.27183 7.08152 8.35523 7.00201 8.45501 6.94859C8.55479 6.89517 8.6672 6.86985 8.78025 6.87533C8.89329 6.8808 9.00273 6.91687 9.09688 6.97969L12.8469 9.47969C12.9326 9.53674 13.0029 9.61409 13.0515 9.70487C13.1002 9.79564 13.1256 9.89702 13.1256 10C13.1256 10.103 13.1002 10.2044 13.0515 10.2951C13.0029 10.3859 12.9326 10.4633 12.8469 10.5203Z" fill="#AD00FF" />
                                             </svg>
-                                            <span className="mx-2">20 hours Pre-Recorded Content</span>
+                                            <span className="mx-2">10 hours Pre-Recorded Content</span>
                                         </li>
                                         <li className="my-2">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                                 <path d="M16.6922 6.43281L12.3172 2.05781C12.2591 1.99979 12.1902 1.95378 12.1143 1.92241C12.0384 1.89105 11.9571 1.87494 11.875 1.875H4.375C4.04348 1.875 3.72554 2.0067 3.49112 2.24112C3.2567 2.47554 3.125 2.79348 3.125 3.125V16.875C3.125 17.2065 3.2567 17.5245 3.49112 17.7589C3.72554 17.9933 4.04348 18.125 4.375 18.125H15.625C15.9565 18.125 16.2745 17.9933 16.5089 17.7589C16.7433 17.5245 16.875 17.2065 16.875 16.875V6.875C16.8751 6.7929 16.859 6.71159 16.8276 6.63572C16.7962 6.55985 16.7502 6.4909 16.6922 6.43281ZM11.875 6.875V3.4375L15.3125 6.875H11.875Z" fill="#AD00FF" />
                                             </svg>
-                                            <span className="mx-2">400+ Questions</span>
+                                            <span className="mx-2">250+ Questions</span>
                                         </li>
                                         <li>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -380,8 +382,8 @@ const Web3course = () => {
                                 <del className="web2course-courseDesc-video-delrupee px-2 mx-2">₹ 4999</del>
                                 <span className="web2course-courseDesc-video-off px-2">50% off</span>
                             </div>
-                            <button className="web2course-courseDesc-add-cart">Coming Soon</button>
-                            <button className="web2course-courseDesc-enroll my-2">Coming Soon</button>
+                            <button className="web2course-courseDesc-add-cart">Buy Now</button>
+                            {/* <button className="web2course-courseDesc-enroll my-2">Coming Soon</button> */}
 
                               {/*<h6 className="web2course-courseDesc-feat mt-3">This Course includes:</h6>
                            <ul className="web2course-courseDesc-ul">
@@ -411,7 +413,7 @@ const Web3course = () => {
                                 </li>
                             </ul> */}
                             {/* <h6 className="web2course-courseDesc-feat mt-4">More Options:</h6> */}
-                            <div className="web2course-courseDesc-share-div mt-2">
+                            {/* <div className="web2course-courseDesc-share-div mt-2">
                                 <div className="web2course-courseDesc-share-card">
                                     <span className="text-center">
                                         <span>
@@ -431,8 +433,8 @@ const Web3course = () => {
                                         </span><br />
                                         <span>Gift</span>
                                     </span >
-                                </div> */}
-                                {/* <div className="web2course-courseDesc-share-card">
+                                </div> 
+                                <div className="web2course-courseDesc-share-card">
                                     <span className="text-center">
                                         <span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -441,8 +443,8 @@ const Web3course = () => {
                                         </span><br />
                                         <span>Apply Coupon</span>
                                     </span >
-                                </div> */}
-                            </div>
+                                </div>
+                            </div> */}
                         </div>
 
                     </div>
@@ -459,13 +461,13 @@ const Web3course = () => {
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                     <path d="M16.25 2.5H3.75C3.41848 2.5 3.10054 2.6317 2.86612 2.86612C2.6317 3.10054 2.5 3.41848 2.5 3.75V16.25C2.5 16.5815 2.6317 16.8995 2.86612 17.1339C3.10054 17.3683 3.41848 17.5 3.75 17.5H16.25C16.5815 17.5 16.8995 17.3683 17.1339 17.1339C17.3683 16.8995 17.5 16.5815 17.5 16.25V3.75C17.5 3.41848 17.3683 3.10054 17.1339 2.86612C16.8995 2.6317 16.5815 2.5 16.25 2.5ZM6.25 16.25H3.75V3.75H6.25V16.25ZM13.75 11.875H8.75C8.58424 11.875 8.42527 11.8092 8.30806 11.6919C8.19085 11.5747 8.125 11.4158 8.125 11.25C8.125 11.0842 8.19085 10.9253 8.30806 10.8081C8.42527 10.6908 8.58424 10.625 8.75 10.625H13.75C13.9158 10.625 14.0747 10.6908 14.1919 10.8081C14.3092 10.9253 14.375 11.0842 14.375 11.25C14.375 11.4158 14.3092 11.5747 14.1919 11.6919C14.0747 11.8092 13.9158 11.875 13.75 11.875ZM13.75 9.375H8.75C8.58424 9.375 8.42527 9.30915 8.30806 9.19194C8.19085 9.07473 8.125 8.91576 8.125 8.75C8.125 8.58424 8.19085 8.42527 8.30806 8.30806C8.42527 8.19085 8.58424 8.125 8.75 8.125H13.75C13.9158 8.125 14.0747 8.19085 14.1919 8.30806C14.3092 8.42527 14.375 8.58424 14.375 8.75C14.375 8.91576 14.3092 9.07473 14.1919 9.19194C14.0747 9.30915 13.9158 9.375 13.75 9.375Z" fill="#AD00FF" />
                                 </svg>
-                                <span className="mx-2">X Lectures</span>
+                                <span className="mx-2">254 Episodes</span>
                             </span>
                             <span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                     <path d="M10 1.875C8.39303 1.875 6.82214 2.35152 5.486 3.24431C4.14985 4.1371 3.10844 5.40605 2.49348 6.8907C1.87852 8.37535 1.71762 10.009 2.03112 11.5851C2.34463 13.1612 3.11846 14.6089 4.25476 15.7452C5.39106 16.8815 6.8388 17.6554 8.4149 17.9689C9.99099 18.2824 11.6247 18.1215 13.1093 17.5065C14.594 16.8916 15.8629 15.8502 16.7557 14.514C17.6485 13.1779 18.125 11.607 18.125 10C18.1227 7.84581 17.266 5.78051 15.7427 4.25727C14.2195 2.73403 12.1542 1.87727 10 1.875ZM14.375 10.625H10C9.83424 10.625 9.67527 10.5592 9.55806 10.4419C9.44085 10.3247 9.375 10.1658 9.375 10V5.625C9.375 5.45924 9.44085 5.30027 9.55806 5.18306C9.67527 5.06585 9.83424 5 10 5C10.1658 5 10.3247 5.06585 10.4419 5.18306C10.5592 5.30027 10.625 5.45924 10.625 5.625V9.375H14.375C14.5408 9.375 14.6997 9.44085 14.8169 9.55806C14.9342 9.67527 15 9.83424 15 10C15 10.1658 14.9342 10.3247 14.8169 10.4419C14.6997 10.5592 14.5408 10.625 14.375 10.625Z" fill="#AD00FF" />
                                 </svg>
-                                <span className="mx-2">20 hours</span>
+                                <span className="mx-2">10 hours</span>
                             </span>
                         </div>
                         {/*<div>
@@ -489,11 +491,11 @@ const Web3course = () => {
                     <h1 className="web2course-courseContent-curri-head mt-4">Instructors</h1>
                     <div className="web2course-courseContent-about-inst my-4 d-flex justify-content-center align-items-center p-3 ">
                         
-                        <div className="web2course-courseContent-inst-img"><img src={Instructor} /></div>
+                        <div className="web2course-courseContent-inst-img"><img src={Sauransh} /></div>
                         <div className="web2course-courseContent-inst-detail">
-                            <h2>Sauransh Bharadvaj </h2>
-                            <p>Co-founder & Ceo</p>
-                            <ul>
+                            <h2>Sauransh Bhardwaj</h2>
+                            <p>Co-Founder & CEO</p>
+                            {/* <ul>
                                 <li> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                     <path d="M18.3203 8.93603L14.7969 12.011L15.8524 16.5892C15.9082 16.8285 15.8923 17.079 15.8065 17.3093C15.7208 17.5396 15.5691 17.7396 15.3703 17.8841C15.1716 18.0287 14.9346 18.1114 14.6891 18.1221C14.4436 18.1327 14.2004 18.0707 13.9899 17.9438L9.99689 15.522L6.01252 17.9438C5.80202 18.0707 5.55881 18.1327 5.31328 18.1221C5.06775 18.1114 4.83079 18.0287 4.63204 17.8841C4.4333 17.7396 4.28157 17.5396 4.19584 17.3093C4.1101 17.079 4.09416 16.8285 4.15002 16.5892L5.20392 12.0157L1.6797 8.93603C1.49331 8.77526 1.35852 8.56304 1.29225 8.32598C1.22598 8.08892 1.23117 7.83757 1.30718 7.60345C1.38319 7.36933 1.52663 7.16287 1.71952 7.00994C1.9124 6.85702 2.14614 6.76445 2.39142 6.74384L7.03674 6.34149L8.85002 2.01649C8.94471 1.78955 9.10443 1.5957 9.30907 1.45935C9.51371 1.323 9.75411 1.25024 10 1.25024C10.2459 1.25024 10.4863 1.323 10.691 1.45935C10.8956 1.5957 11.0553 1.78955 11.15 2.01649L12.9688 6.34149L17.6125 6.74384C17.8578 6.76445 18.0915 6.85702 18.2844 7.00994C18.4773 7.16287 18.6207 7.36933 18.6968 7.60345C18.7728 7.83757 18.778 8.08892 18.7117 8.32598C18.6454 8.56304 18.5106 8.77526 18.3242 8.93603H18.3203Z" fill="#AD00FF" />
                                 </svg> &nbsp;<span>4.5 Instructor rating</span></li>
@@ -512,16 +514,18 @@ const Web3course = () => {
                                         <path d="M10 1.875C8.39303 1.875 6.82214 2.35152 5.486 3.24431C4.14985 4.1371 3.10844 5.40605 2.49348 6.8907C1.87852 8.37535 1.71762 10.009 2.03112 11.5851C2.34463 13.1612 3.11846 14.6089 4.25476 15.7452C5.39106 16.8815 6.8388 17.6554 8.4149 17.9689C9.99099 18.2824 11.6247 18.1215 13.1093 17.5065C14.594 16.8916 15.8629 15.8502 16.7557 14.514C17.6485 13.1779 18.125 11.607 18.125 10C18.1223 7.84594 17.2654 5.78088 15.7423 4.25773C14.2191 2.73457 12.1541 1.87769 10 1.875ZM12.8469 10.5203L9.09688 13.0203C8.99403 13.0885 8.87339 13.1249 8.75 13.125C8.58424 13.125 8.42527 13.0592 8.30806 12.9419C8.19085 12.8247 8.125 12.6658 8.125 12.5V7.5C8.12493 7.38682 8.15559 7.27575 8.21371 7.17863C8.27183 7.08152 8.35523 7.00201 8.45501 6.94859C8.55479 6.89517 8.6672 6.86985 8.78025 6.87533C8.89329 6.8808 9.00273 6.91687 9.09688 6.97969L12.8469 9.47969C12.9326 9.53674 13.0029 9.61409 13.0515 9.70487C13.1002 9.79564 13.1256 9.89702 13.1256 10C13.1256 10.103 13.1002 10.2044 13.0515 10.2951C13.0029 10.3859 12.9326 10.4633 12.8469 10.5203Z" fill="#AD00FF" />
                                     </svg>
                                     &nbsp;&nbsp;20+ Courses</li>
-                            </ul>
+                            </ul> */}
                         </div>
-                        <p className="web2course-courseContent-inst-desc">Sauransh is an online entrepreneur who has created 30+ top-rated educational e-courses to the world on new technology topics such as Artificial Intelligence, Machine Learning, Deep Learning, Blockchain and Cryptocurrencies. He is passionate about bringing this knowledge to the world and help as much people as possible. So far more than 1.7 million students have subscribed to his courses.</p>
+                        <p className="web2course-courseContent-inst-desc">A college freshman at Drexel University, and a lifelong learner focusing on web3, artificial intelligence, and finance.
+                        My role at VidyaVerse includes building products, managing teams, and talking to users every week!
+                        </p>
                     </div><div className="web2course-courseContent-about-inst my-4 d-flex justify-content-center align-items-center p-3 ">
                         
-                        <div className="web2course-courseContent-inst-img"><img src={Instructor} /></div>
+                        <div className="web2course-courseContent-inst-img"><img src={Chirag} /></div>
                         <div className="web2course-courseContent-inst-detail">
-                            <h2>Sauransh Bharadvaj </h2>
-                            <p>Co-founder & Ceo</p>
-                            <ul>
+                            <h2>Chirag Ravishankar</h2>
+                            <p>Web3 Instructor</p>
+                            {/* <ul>
                                 <li> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                     <path d="M18.3203 8.93603L14.7969 12.011L15.8524 16.5892C15.9082 16.8285 15.8923 17.079 15.8065 17.3093C15.7208 17.5396 15.5691 17.7396 15.3703 17.8841C15.1716 18.0287 14.9346 18.1114 14.6891 18.1221C14.4436 18.1327 14.2004 18.0707 13.9899 17.9438L9.99689 15.522L6.01252 17.9438C5.80202 18.0707 5.55881 18.1327 5.31328 18.1221C5.06775 18.1114 4.83079 18.0287 4.63204 17.8841C4.4333 17.7396 4.28157 17.5396 4.19584 17.3093C4.1101 17.079 4.09416 16.8285 4.15002 16.5892L5.20392 12.0157L1.6797 8.93603C1.49331 8.77526 1.35852 8.56304 1.29225 8.32598C1.22598 8.08892 1.23117 7.83757 1.30718 7.60345C1.38319 7.36933 1.52663 7.16287 1.71952 7.00994C1.9124 6.85702 2.14614 6.76445 2.39142 6.74384L7.03674 6.34149L8.85002 2.01649C8.94471 1.78955 9.10443 1.5957 9.30907 1.45935C9.51371 1.323 9.75411 1.25024 10 1.25024C10.2459 1.25024 10.4863 1.323 10.691 1.45935C10.8956 1.5957 11.0553 1.78955 11.15 2.01649L12.9688 6.34149L17.6125 6.74384C17.8578 6.76445 18.0915 6.85702 18.2844 7.00994C18.4773 7.16287 18.6207 7.36933 18.6968 7.60345C18.7728 7.83757 18.778 8.08892 18.7117 8.32598C18.6454 8.56304 18.5106 8.77526 18.3242 8.93603H18.3203Z" fill="#AD00FF" />
                                 </svg> &nbsp;<span>4.5 Instructor rating</span></li>
@@ -540,16 +544,16 @@ const Web3course = () => {
                                         <path d="M10 1.875C8.39303 1.875 6.82214 2.35152 5.486 3.24431C4.14985 4.1371 3.10844 5.40605 2.49348 6.8907C1.87852 8.37535 1.71762 10.009 2.03112 11.5851C2.34463 13.1612 3.11846 14.6089 4.25476 15.7452C5.39106 16.8815 6.8388 17.6554 8.4149 17.9689C9.99099 18.2824 11.6247 18.1215 13.1093 17.5065C14.594 16.8916 15.8629 15.8502 16.7557 14.514C17.6485 13.1779 18.125 11.607 18.125 10C18.1223 7.84594 17.2654 5.78088 15.7423 4.25773C14.2191 2.73457 12.1541 1.87769 10 1.875ZM12.8469 10.5203L9.09688 13.0203C8.99403 13.0885 8.87339 13.1249 8.75 13.125C8.58424 13.125 8.42527 13.0592 8.30806 12.9419C8.19085 12.8247 8.125 12.6658 8.125 12.5V7.5C8.12493 7.38682 8.15559 7.27575 8.21371 7.17863C8.27183 7.08152 8.35523 7.00201 8.45501 6.94859C8.55479 6.89517 8.6672 6.86985 8.78025 6.87533C8.89329 6.8808 9.00273 6.91687 9.09688 6.97969L12.8469 9.47969C12.9326 9.53674 13.0029 9.61409 13.0515 9.70487C13.1002 9.79564 13.1256 9.89702 13.1256 10C13.1256 10.103 13.1002 10.2044 13.0515 10.2951C13.0029 10.3859 12.9326 10.4633 12.8469 10.5203Z" fill="#AD00FF" />
                                     </svg>
                                     &nbsp;&nbsp;20+ Courses</li>
-                            </ul>
+                            </ul> */}
                         </div>
-                        <p className="web2course-courseContent-inst-desc">Sauransh is an online entrepreneur who has created 30+ top-rated educational e-courses to the world on new technology topics such as Artificial Intelligence, Machine Learning, Deep Learning, Blockchain and Cryptocurrencies. He is passionate about bringing this knowledge to the world and help as much people as possible. So far more than 1.7 million students have subscribed to his courses.</p>
+                        <p className="web2course-courseContent-inst-desc">Marketing and Community at Shardeum. A Layer 1 EVM based Blockchain. My role includes Building Organic Community for Shardeum Mainly in India and Vietnam along with other APAC countries like Japan,South Korea etc.</p>
                     </div><div className="web2course-courseContent-about-inst my-4 d-flex justify-content-center align-items-center p-3 ">
                         
-                        <div className="web2course-courseContent-inst-img"><img src={Instructor} /></div>
+                        <div className="web2course-courseContent-inst-img"><img src={Yashika} /></div>
                         <div className="web2course-courseContent-inst-detail">
-                            <h2>Sauransh Bharadvaj </h2>
-                            <p>Co-founder & Ceo</p>
-                            <ul>
+                            <h2>Yashika Chugh</h2>
+                            <p>Web3 Instructor</p>
+                            {/* <ul>
                                 <li> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                     <path d="M18.3203 8.93603L14.7969 12.011L15.8524 16.5892C15.9082 16.8285 15.8923 17.079 15.8065 17.3093C15.7208 17.5396 15.5691 17.7396 15.3703 17.8841C15.1716 18.0287 14.9346 18.1114 14.6891 18.1221C14.4436 18.1327 14.2004 18.0707 13.9899 17.9438L9.99689 15.522L6.01252 17.9438C5.80202 18.0707 5.55881 18.1327 5.31328 18.1221C5.06775 18.1114 4.83079 18.0287 4.63204 17.8841C4.4333 17.7396 4.28157 17.5396 4.19584 17.3093C4.1101 17.079 4.09416 16.8285 4.15002 16.5892L5.20392 12.0157L1.6797 8.93603C1.49331 8.77526 1.35852 8.56304 1.29225 8.32598C1.22598 8.08892 1.23117 7.83757 1.30718 7.60345C1.38319 7.36933 1.52663 7.16287 1.71952 7.00994C1.9124 6.85702 2.14614 6.76445 2.39142 6.74384L7.03674 6.34149L8.85002 2.01649C8.94471 1.78955 9.10443 1.5957 9.30907 1.45935C9.51371 1.323 9.75411 1.25024 10 1.25024C10.2459 1.25024 10.4863 1.323 10.691 1.45935C10.8956 1.5957 11.0553 1.78955 11.15 2.01649L12.9688 6.34149L17.6125 6.74384C17.8578 6.76445 18.0915 6.85702 18.2844 7.00994C18.4773 7.16287 18.6207 7.36933 18.6968 7.60345C18.7728 7.83757 18.778 8.08892 18.7117 8.32598C18.6454 8.56304 18.5106 8.77526 18.3242 8.93603H18.3203Z" fill="#AD00FF" />
                                 </svg> &nbsp;<span>4.5 Instructor rating</span></li>
@@ -568,9 +572,9 @@ const Web3course = () => {
                                         <path d="M10 1.875C8.39303 1.875 6.82214 2.35152 5.486 3.24431C4.14985 4.1371 3.10844 5.40605 2.49348 6.8907C1.87852 8.37535 1.71762 10.009 2.03112 11.5851C2.34463 13.1612 3.11846 14.6089 4.25476 15.7452C5.39106 16.8815 6.8388 17.6554 8.4149 17.9689C9.99099 18.2824 11.6247 18.1215 13.1093 17.5065C14.594 16.8916 15.8629 15.8502 16.7557 14.514C17.6485 13.1779 18.125 11.607 18.125 10C18.1223 7.84594 17.2654 5.78088 15.7423 4.25773C14.2191 2.73457 12.1541 1.87769 10 1.875ZM12.8469 10.5203L9.09688 13.0203C8.99403 13.0885 8.87339 13.1249 8.75 13.125C8.58424 13.125 8.42527 13.0592 8.30806 12.9419C8.19085 12.8247 8.125 12.6658 8.125 12.5V7.5C8.12493 7.38682 8.15559 7.27575 8.21371 7.17863C8.27183 7.08152 8.35523 7.00201 8.45501 6.94859C8.55479 6.89517 8.6672 6.86985 8.78025 6.87533C8.89329 6.8808 9.00273 6.91687 9.09688 6.97969L12.8469 9.47969C12.9326 9.53674 13.0029 9.61409 13.0515 9.70487C13.1002 9.79564 13.1256 9.89702 13.1256 10C13.1256 10.103 13.1002 10.2044 13.0515 10.2951C13.0029 10.3859 12.9326 10.4633 12.8469 10.5203Z" fill="#AD00FF" />
                                     </svg>
                                     &nbsp;&nbsp;20+ Courses</li>
-                            </ul>
+                            </ul> */}
                         </div>
-                        <p className="web2course-courseContent-inst-desc">Sauransh is an online entrepreneur who has created 30+ top-rated educational e-courses to the world on new technology topics such as Artificial Intelligence, Machine Learning, Deep Learning, Blockchain and Cryptocurrencies. He is passionate about bringing this knowledge to the world and help as much people as possible. So far more than 1.7 million students have subscribed to his courses.</p>
+                        <p className="web2course-courseContent-inst-desc">Marketing and Community Building professional at a leading decentralised finance infrastructure firm. Driving brand impact and community engagement in the dynamic blockchain space.</p>
                     </div>
                     
                 </div>
