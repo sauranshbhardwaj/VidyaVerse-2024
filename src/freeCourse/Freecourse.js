@@ -4,9 +4,6 @@ import Navbar from "../Component/Navbar";
 import Footer from "../Component/Footer";
 import sealCheck from '../images/SealCheck.svg'
 import Sauransh from '../images/sauransh.jpeg'
-import Chirag from '../images/chirag.png'
-import Yashika from '../images/yashika.png'
-
 
 
 const courses = [
