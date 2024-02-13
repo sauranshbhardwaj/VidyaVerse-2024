@@ -268,7 +268,7 @@ const Web3course = () => {
                                 </svg>
                                 <span>New Launch</span>
                             </button>
-                            <p className="mt-3">Created by <a className="web2course-courseContent-owner">VidyaVerse</a></p>
+                            <p className="mt-3">Created by <a className="web2course-courseContent-owner" href="/">VidyaVerse</a></p>
                             {/* <div>
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
@@ -382,7 +382,8 @@ const Web3course = () => {
                                 <del className="web2course-courseDesc-video-delrupee px-2 mx-2">₹ 4999</del>
                                 <span className="web2course-courseDesc-video-off px-2">50% off</span>
                             </div>
-                            <button className="web2course-courseDesc-add-cart">Buy Now</button>
+                            <a href="https://academy.vidyaverse.in/account/expresscheckout?redirectfrom=signup&course=36909fdb-27e2-45fa-b9cc-f5295c221165">
+                            <button className="web2course-courseDesc-add-cart">Buy Now</button></a>
                             {/* <button className="web2course-courseDesc-enroll my-2">Coming Soon</button> */}
 
                               {/*<h6 className="web2course-courseDesc-feat mt-3">This Course includes:</h6>

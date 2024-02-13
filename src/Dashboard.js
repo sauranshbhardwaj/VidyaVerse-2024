@@ -130,7 +130,7 @@ export default function Dashboard() {
           <div className="technology-left-box">
             <h3 className="technology-left-box-text mt-4"><span className="technology-left-box-subtext">Explore</span>  WEB3 Technologies</h3>
             <p className="technology-left-pra-text">Find the best Course to learn new technologies in WEB3 Space</p>
-            <p className="technology-left-pra-text2">Interested learning? <a href="/web3course">Enroll now</a></p>
+            {/* <p className="technology-left-pra-text2">Interested learning? <a href="/web3course">Enroll now</a></p> */}
           </div>
           <div className="technology-right-box">
             <div className="technology-type-div position-relative">

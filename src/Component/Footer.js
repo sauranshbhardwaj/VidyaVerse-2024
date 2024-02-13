@@ -5,7 +5,7 @@ import footer from "../images/footerimg.png"
 export default function Footer() {
   return (
     <footer className="footerparent">
-      <div className="footerchil1 d-flex justify-content-between">
+      {/* <div className="footerchil1 d-flex justify-content-between">
         <div className="footerchil1text mt-2">
           Join our newsletter to keep up to date with us!
         </div>
@@ -16,7 +16,7 @@ export default function Footer() {
           </div>
           <button className="btn btn-light text-dark" style={{ borderRadius: "100px" }}> Subscribe</button>
         </div>
-      </div>
+      </div> */}
       <div className="footerchil1 d-flex justify-content-between ">
         <div className="footer-org-about" >
           <img src={footer} className="mb-2" style={{ width: "165px", height: "60px" }} alt={"ImageApply"} />
@@ -25,16 +25,14 @@ export default function Footer() {
         <div className="d-flex footer-list">
           <ul className="footer-program-ul">
             <li>Company</li>
-            <li><a href="/About">About us</a></li>
-            <li>Contact us</li>
-            <li>Career</li>
-            <li>Blogs</li>
+            <li><a href="/About" style={{textDecoration: "none", color: "rgba(255, 255, 255, 0.8)"}}>About us</a></li>
+            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeN8z3d_akgCnshfGZGyBtlFUR1OKYI-Y_YrC3G_1_qRF6Rww/viewform" style={{textDecoration: "none", color: "rgba(255, 255, 255, 0.8)"}}>Contact us</a></li>
           </ul>
           <ul className="footer-program-ul">
             <li>Our Programs</li>
-            <li><a href="/web3course">Web3 for GenZ Course</a></li>
-            <li>Student Ambassador Program</li>
-            <li>Free Introductory Course</li>
+            <li><a href="/web3course" style={{textDecoration: "none", color: "rgba(255, 255, 255, 0.8)"}}>Web3 for GenZ</a></li>
+            <li><a href="/freeCourse" style={{textDecoration: "none", color: "rgba(255, 255, 255, 0.8)"}}>Free Course</a></li>
+            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScrzKTNTLkl-CsgFfIhFSwE3G0sgO-atN3KtGikTeZfp9p8RQ/viewform" style={{textDecoration: "none", color: "rgba(255, 255, 255, 0.8)"}}>Student Ambassador</a></li>
           </ul>
         </div>
       </div>

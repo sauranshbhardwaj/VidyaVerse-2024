@@ -3,33 +3,212 @@ import './freeCourse.css'
 import Navbar from "../Component/Navbar";
 import Footer from "../Component/Footer";
 import sealCheck from '../images/SealCheck.svg'
-import Instructor from '../images/steller-img1.png'
+import Sauransh from '../images/sauransh.jpeg'
+import Chirag from '../images/chirag.png'
+import Yashika from '../images/yashika.png'
+
 
 
 const courses = [
     {
         id: 1,
-        time: "Coming Soon 1",
-        header: "What is Lorem Ipsum?",
-        text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.`
+        time: "3 Chapters / 23 Episodes",
+        header: "Introduction to the Web3",
+        text: <div>
+                <div className="flexbox">
+                    <h6 style={{textAlign:"left"}}>The Story of Web1</h6>
+                    <p style={{textAlign:"right"}}>Episodes: 7</p>
+                </div>
+                <div className="flexbox">
+                    <h6 style={{textAlign:"left"}}>The Story of Web2</h6>
+                    <p style={{textAlign:"right"}}>Episodes: 9</p>
+                </div>
+                <div className="flexbox">
+                    <h6 style={{textAlign:"left"}}>Difference between Web2 and Web3</h6>
+                    <p style={{textAlign:"right"}}>Episodes: 7</p>
+                </div>
+            </div>
     },
     {
         id: 2,
-        time: "Coming Soon 2",
-        header: "Where does it come from?",
-        text: `It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. `
-    },
+        time: "16 Chapters / 98 Episodes",
+        header: "Blockchain Technology",
+        text: <div>
+            <div className="flexbox">
+                <h6 style={{textAlign:"left"}}>Client-Server Model Explanation</h6>
+                <p style={{textAlign:"right"}}>Episodes: 7</p>
+            </div>
+            <div className="flexbox">
+                <h6 style={{textAlign:"left"}}>P2P Model Explanation</h6>
+                <p style={{textAlign:"right"}}>Episodes: 5</p>
+            </div>
+            <div className="flexbox">
+                <h6 style={{textAlign:"left"}}>Case Study of Instagram</h6>
+                <p style={{textAlign:"right"}}>Episodes: 6</p>
+            </div>
+            <div className="flexbox">
+                <h6 style={{textAlign:"left"}}>Case Study of U-Torrent</h6>
+                <p style={{textAlign:"right"}}>Episodes: 7</p>
+            </div>
+            <div className="flexbox">
+                <h6 style={{textAlign:"left"}}>Open Source Project</h6>
+                <p style={{textAlign:"right"}}>Episodes: 6</p>
+            </div>
+            <div className="flexbox">
+                <h6 style={{textAlign:"left"}}>What is Ledger?</h6>
+                <p style={{textAlign:"right"}}>Episodes: 6</p>
+            </div>
+            <div className="flexbox">
+                <h6 style={{textAlign:"left"}}>What is Immutability?</h6>
+                <p style={{textAlign:"right"}}>Episodes: 6</p>
+            </div>
+            <div className="flexbox">
+                <h6 style={{textAlign:"left"}}>What is Cryptography?</h6>
+                <p style={{textAlign:"right"}}>Episodes: 8</p>
+            </div>
+            <div className="flexbox">
+                <h6 style={{textAlign:"left"}}>What is SHA-256?</h6>
+                <p style={{textAlign:"right"}}>Episodes: 7</p>
+            </div>
+            <div className="flexbox">
+                <h6 style={{textAlign:"left"}}>What is a Block?</h6>
+                <p style={{textAlign:"right"}}>Episodes: 6</p>
+            </div>
+            <div className="flexbox">
+                <h6 style={{textAlign:"left"}}>What is Blockchain?</h6>
+                <p style={{textAlign:"right"}}>Episodes: 6</p>
+            </div>
+            <div className="flexbox">
+                <h6 style={{textAlign:"left"}}>Different Census Mechanisms in Blockchain</h6>
+                <p style={{textAlign:"right"}}>Episodes: 5</p>
+            </div>
+            <div className="flexbox">
+                <h6 style={{textAlign:"left"}}>Public and Private Blockchain</h6>
+                <p style={{textAlign:"right"}}>Episodes: 5</p>
+            </div>
+            <div className="flexbox">
+                <h6 style={{textAlign:"left"}}>Layer 1 and Layer 2 Blockchain</h6>
+                <p style={{textAlign:"right"}}>Episodes: 6</p>
+            </div>
+            <div className="flexbox">
+                <h6 style={{textAlign:"left"}}>Case Study of Ethereum</h6>
+                <p style={{textAlign:"right"}}>Episodes: 6</p>
+            </div>
+            <div className="flexbox">
+                <h6 style={{textAlign:"left"}}>Case Study of Polygon</h6>
+                <p style={{textAlign:"right"}}>Episodes: 6</p>
+            </div>  
+        </div>
+        },
+        
     {
         id: 3,
-        time: "Coming Soon 3",
-        header: "Why do we use it?",
-        text: `Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature,`
+        time: "12 Chapters / 69 Episodes",
+        header: "Cryptocurrencies",
+        text: <div>
+        <div className="flexbox">
+            <h6 style={{textAlign:"left"}}>How does the Banking System work?</h6>
+            <p style={{textAlign:"right"}}>Episodes: 6</p>
+        </div>
+        <div className="flexbox">
+            <h6 style={{textAlign:"left"}}>What are Cryptocurrencies?</h6>
+            <p style={{textAlign:"right"}}>Episodes: 6</p>
+        </div>
+        <div className="flexbox">
+            <h6 style={{textAlign:"left"}}>Case Study of Bitcoin</h6>
+            <p style={{textAlign:"right"}}>Episodes: 6</p>
+        </div>
+        <div className="flexbox">
+            <h6 style={{textAlign:"left"}}>Case Study of Solana</h6>
+            <p style={{textAlign:"right"}}>Episodes: 7</p>
+        </div>
+        <div className="flexbox">
+            <h6 style={{textAlign:"left"}}>Case Study of USDT</h6>
+            <p style={{textAlign:"right"}}>Episodes: 6</p>
+        </div>
+        <div className="flexbox">
+            <h6 style={{textAlign:"left"}}>Case Study of Dogecoin</h6>
+            <p style={{textAlign:"right"}}>Episodes: 7</p>
+        </div>
+        <div className="flexbox">
+            <h6 style={{textAlign:"left"}}>How to setup a Metamask Account?</h6>
+            <p style={{textAlign:"right"}}>Episodes: 1</p>
+        </div>
+        <div className="flexbox">
+            <h6 style={{textAlign:"left"}}>How to Buy Cryptocurrency?</h6>
+            <p style={{textAlign:"right"}}>Episodes: 8</p>
+        </div>
+        <div className="flexbox">
+            <h6 style={{textAlign:"left"}}>What is Private Key?</h6>
+            <p style={{textAlign:"right"}}>Episodes: 6</p>
+        </div>
+        <div className="flexbox">
+            <h6 style={{textAlign:"left"}}>What is Public Key?</h6>
+            <p style={{textAlign:"right"}}>Episodes: 5</p>
+        </div>
+        <div className="flexbox">
+            <h6 style={{textAlign:"left"}}>How to make transactions in Crypto?</h6>
+            <p style={{textAlign:"right"}}>Episodes: 6</p>
+        </div>
+        <div className="flexbox">
+            <h6 style={{textAlign:"left"}}>Blockchain Explorer</h6>
+            <p style={{textAlign:"right"}}>Episodes: 5</p>
+        </div>        
+    </div>
     },
     {
         id: 4,
-        time: "Coming Soon 4",
-        header: "Where can I get some?",
-        text: `There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.`
+        time: "2 Chapters / 13 Episodes",
+        header: "Smart Contract",
+        text: <div>
+                <div className="flexbox">
+                    <h6 style={{textAlign:"left"}}>What are Smart Contracts?</h6>
+                    <p style={{textAlign:"right"}}>Episodes: 6</p>
+                </div>
+                <div className="flexbox">
+                    <h6 style={{textAlign:"left"}}>Languages used in Smart Contract Development</h6>
+                    <p style={{textAlign:"right"}}>Episodes: 7</p>
+                </div>
+            </div>
+    },
+    {
+        id: 5,
+        time: "8 Chapters / 51 Episodes",
+        header: "DApps, DeFi, Web3 Gaming, etc.",
+        text: <div>
+                <div className="flexbox">
+                    <h6 style={{textAlign:"left"}}>What is DApp?</h6>
+                    <p style={{textAlign:"right"}}>Episodes: 7</p>
+                </div>
+                <div className="flexbox">
+                    <h6 style={{textAlign:"left"}}>What is DeFi?</h6>
+                    <p style={{textAlign:"right"}}>Episodes: 7</p>
+                </div>
+                <div className="flexbox">
+                    <h6 style={{textAlign:"left"}}>Case Study of DeFi Protocol: UniSwap</h6>
+                    <p style={{textAlign:"right"}}>Episodes: 7</p>
+                </div>
+                <div className="flexbox">
+                    <h6 style={{textAlign:"left"}}>What are NFTs?</h6>
+                    <p style={{textAlign:"right"}}>Episodes: 6</p>
+                </div>
+                <div className="flexbox">
+                    <h6 style={{textAlign:"left"}}>Case Study of an NFT Project: BAYC</h6>
+                    <p style={{textAlign:"right"}}>Episodes: 8</p>
+                </div>
+                <div className="flexbox">
+                    <h6 style={{textAlign:"left"}}>Web3 Gaming</h6>
+                    <p style={{textAlign:"right"}}>Episodes: 6</p>
+                </div>
+                <div className="flexbox">
+                    <h6 style={{textAlign:"left"}}>Web3 Social Media</h6>
+                    <p style={{textAlign:"right"}}>Episodes: 7</p>
+                </div>
+                <div className="flexbox">
+                    <h6 style={{textAlign:"left"}}>Supply Chain Management</h6>
+                    <p style={{textAlign:"right"}}>Episodes: 3</p>
+                </div>
+            </div>
     }
 ]
 
@@ -78,19 +257,19 @@ const Freecourse = () => {
             <Navbar />
             <section className="mt-2 contact-section mb-2 mx-1" >
                 <div className="web2course-container m-auto">
-                    <p className="web2course-course-enroll mt-5"><span className="web2course-course-subenroll">20 hours course</span> <strong>// Course Enroll //</strong></p>
+                    <p className="web2course-course-enroll mt-5"><span className="web2course-course-subenroll">Web3 Course</span> <strong>// Course Enroll //</strong></p>
                     <div className="web2course-course">
                         <div className="web2course-courseContent">
-                            <h1 className="web2course-courseContent-head">Introduction to Free</h1>
-                            <p className="web2course-courseContent-prag">Explore how Free revolutionizes digital interactions. Learn its core principles, tech, and applications. Step into the future of the internet!</p>
+                            <h1 className="web2course-courseContent-head">Introduction to Web3</h1>
+                            <p className="web2course-courseContent-prag">Start learning Web3 with this Free Introductory Course!</p>
                             <button className="web2course-courseContent-launchbtn">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="19" height="20" viewBox="0 0 19 20" fill="none">
                                     <path d="M14.58 10.208L10.9263 8.86395C10.9079 8.85693 10.8911 8.84612 10.8771 8.83223C10.8631 8.81835 10.8522 8.80168 10.845 8.78331L9.50093 5.12891C9.43125 4.93999 9.30533 4.77697 9.14014 4.66183C8.97495 4.54669 8.77843 4.48496 8.57707 4.48496C8.37572 4.48496 8.1792 4.54669 8.01401 4.66183C7.84882 4.77697 7.7229 4.93999 7.65322 5.12891L6.30917 8.7826C6.30214 8.80104 6.29133 8.81779 6.27745 8.8318C6.26356 8.84581 6.24689 8.85677 6.22852 8.86395L2.57412 10.208C2.3852 10.2777 2.22219 10.4036 2.10705 10.5688C1.99191 10.734 1.93018 10.9305 1.93018 11.1319C1.93018 11.3332 1.99191 11.5297 2.10705 11.6949C2.22219 11.8601 2.3852 11.986 2.57412 12.0557L6.22782 13.3998C6.24625 13.4068 6.26301 13.4176 6.27702 13.4315C6.29103 13.4454 6.30198 13.462 6.30917 13.4804L7.65322 17.1348C7.7229 17.3237 7.84882 17.4867 8.01401 17.6019C8.1792 17.717 8.37572 17.7788 8.57707 17.7788C8.77843 17.7788 8.97495 17.717 9.14014 17.6019C9.30533 17.4867 9.43125 17.3237 9.50093 17.1348L10.845 13.4811C10.852 13.4627 10.8628 13.4459 10.8767 13.4319C10.8906 13.4179 10.9073 13.407 10.9256 13.3998L14.58 12.0557C14.7689 11.986 14.932 11.8601 15.0471 11.6949C15.1622 11.5297 15.224 11.3332 15.224 11.1319C15.224 10.9305 15.1622 10.734 15.0471 10.5688C14.932 10.4036 14.7689 10.2777 14.58 10.208ZM14.2865 11.2592L10.6321 12.6032C10.4983 12.6527 10.3769 12.7305 10.2761 12.8314C10.1754 12.9322 10.0977 13.0538 10.0485 13.1876L8.70441 16.8412C8.69476 16.8672 8.67739 16.8897 8.65462 16.9055C8.63186 16.9213 8.6048 16.9298 8.57707 16.9298C8.54935 16.9298 8.52229 16.9213 8.49952 16.9055C8.47676 16.8897 8.45939 16.8672 8.44974 16.8412L7.10569 13.1868C7.0561 13.0533 6.9783 12.9321 6.87758 12.8314C6.77687 12.7306 6.65561 12.6528 6.52209 12.6032L2.8684 11.2592C2.84241 11.2495 2.81999 11.2322 2.80416 11.2094C2.78833 11.1866 2.77984 11.1596 2.77984 11.1319C2.77984 11.1041 2.78833 11.0771 2.80416 11.0543C2.81999 11.0315 2.84241 11.0142 2.8684 11.0045L6.5228 9.66048C6.65653 9.61106 6.77796 9.53324 6.87871 9.43236C6.97947 9.33149 7.05715 9.20997 7.1064 9.07617L8.45045 5.42248C8.4601 5.39649 8.47747 5.37407 8.50023 5.35824C8.52299 5.34241 8.55006 5.33392 8.57778 5.33392C8.60551 5.33392 8.63257 5.34241 8.65533 5.35824C8.67809 5.37407 8.69546 5.39649 8.70511 5.42248L10.0492 9.07688C10.0986 9.21061 10.1764 9.33204 10.2773 9.43279C10.3782 9.53355 10.4997 9.61123 10.6335 9.66048L14.2872 11.0045C14.3132 11.0142 14.3356 11.0315 14.3514 11.0543C14.3672 11.0771 14.3757 11.1041 14.3757 11.1319C14.3757 11.1596 14.3672 11.1866 14.3514 11.2094C14.3356 11.2322 14.3132 11.2495 14.2872 11.2592H14.2865ZM10.9801 3.77496C10.9801 3.66239 11.0248 3.55443 11.1044 3.47483C11.184 3.39524 11.292 3.35052 11.4045 3.35052H12.6778V2.07721C12.6778 1.96464 12.7226 1.85668 12.8022 1.77709C12.8818 1.69749 12.9897 1.65277 13.1023 1.65277C13.2148 1.65277 13.3228 1.69749 13.4024 1.77709C13.482 1.85668 13.5267 1.96464 13.5267 2.07721V3.35052H14.8C14.9126 3.35052 15.0206 3.39524 15.1001 3.47483C15.1797 3.55443 15.2245 3.66239 15.2245 3.77496C15.2245 3.88752 15.1797 3.99548 15.1001 4.07508C15.0206 4.15468 14.9126 4.19939 14.8 4.19939H13.5267V5.4727C13.5267 5.58527 13.482 5.69323 13.4024 5.77282C13.3228 5.85242 13.2148 5.89714 13.1023 5.89714C12.9897 5.89714 12.8818 5.85242 12.8022 5.77282C12.7226 5.69323 12.6778 5.58527 12.6778 5.4727V4.19939H11.4045C11.292 4.19939 11.184 4.15468 11.1044 4.07508C11.0248 3.99548 10.9801 3.88752 10.9801 3.77496ZM18.054 7.17045C18.054 7.28302 18.0093 7.39097 17.9297 7.47057C17.8501 7.55017 17.7422 7.59489 17.6296 7.59489H16.9222V8.30228C16.9222 8.41485 16.8775 8.52281 16.7979 8.6024C16.7183 8.682 16.6103 8.72672 16.4978 8.72672C16.3852 8.72672 16.2772 8.682 16.1976 8.6024C16.1181 8.52281 16.0733 8.41485 16.0733 8.30228V7.59489H15.3659C15.2534 7.59489 15.1454 7.55017 15.0658 7.47057C14.9862 7.39097 14.9415 7.28302 14.9415 7.17045C14.9415 7.05788 14.9862 6.94993 15.0658 6.87033C15.1454 6.79073 15.2534 6.74601 15.3659 6.74601H16.0733V6.03862C16.0733 5.92605 16.1181 5.81809 16.1976 5.7385C16.2772 5.6589 16.3852 5.61418 16.4978 5.61418C16.6103 5.61418 16.7183 5.6589 16.7979 5.7385C16.8775 5.81809 16.9222 5.92605 16.9222 6.03862V6.74601H17.6296C17.7422 6.74601 17.8501 6.79073 17.9297 6.87033C18.0093 6.94993 18.054 7.05788 18.054 7.17045Z" fill="#AC00FF" />
                                 </svg>
-                                <span>New Launch</span>
+                                <span>Free Course</span>
                             </button>
                             <p className="mt-3">Created by <a className="web2course-courseContent-owner">VidyaVerse</a></p>
-                            <div>
+                            {/* <div>
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
                                         <path d="M21.1744 10.1394C20.8209 9.77 20.4553 9.38938 20.3175 9.05469C20.19 8.74813 20.1825 8.24 20.175 7.74781C20.1609 6.83281 20.1459 5.79594 19.425 5.075C18.7041 4.35406 17.6672 4.33906 16.7522 4.325C16.26 4.3175 15.7519 4.31 15.4453 4.1825C15.1116 4.04469 14.73 3.67906 14.3606 3.32562C13.7137 2.70406 12.9788 2 12 2C11.0212 2 10.2872 2.70406 9.63937 3.32562C9.27 3.67906 8.88938 4.04469 8.55469 4.1825C8.25 4.31 7.74 4.3175 7.24781 4.325C6.33281 4.33906 5.29594 4.35406 4.575 5.075C3.85406 5.79594 3.84375 6.83281 3.825 7.74781C3.8175 8.24 3.81 8.74813 3.6825 9.05469C3.54469 9.38844 3.17906 9.77 2.82562 10.1394C2.20406 10.7863 1.5 11.5212 1.5 12.5C1.5 13.4788 2.20406 14.2128 2.82562 14.8606C3.17906 15.23 3.54469 15.6106 3.6825 15.9453C3.81 16.2519 3.8175 16.76 3.825 17.2522C3.83906 18.1672 3.85406 19.2041 4.575 19.925C5.29594 20.6459 6.33281 20.6609 7.24781 20.675C7.74 20.6825 8.24813 20.69 8.55469 20.8175C8.88844 20.9553 9.27 21.3209 9.63937 21.6744C10.2863 22.2959 11.0212 23 12 23C12.9788 23 13.7128 22.2959 14.3606 21.6744C14.73 21.3209 15.1106 20.9553 15.4453 20.8175C15.7519 20.69 16.26 20.6825 16.7522 20.675C17.6672 20.6609 18.7041 20.6459 19.425 19.925C20.1459 19.2041 20.1609 18.1672 20.175 17.2522C20.1825 16.76 20.19 16.2519 20.3175 15.9453C20.4553 15.6116 20.8209 15.23 21.1744 14.8606C21.7959 14.2137 22.5 13.4788 22.5 12.5C22.5 11.5212 21.7959 10.7872 21.1744 10.1394ZM11.25 8C11.25 7.80109 11.329 7.61032 11.4697 7.46967C11.6103 7.32902 11.8011 7.25 12 7.25C12.1989 7.25 12.3897 7.32902 12.5303 7.46967C12.671 7.61032 12.75 7.80109 12.75 8V13.25C12.75 13.4489 12.671 13.6397 12.5303 13.7803C12.3897 13.921 12.1989 14 12 14C11.8011 14 11.6103 13.921 11.4697 13.7803C11.329 13.6397 11.25 13.4489 11.25 13.25V8ZM12 17.75C11.7775 17.75 11.56 17.684 11.375 17.5604C11.19 17.4368 11.0458 17.2611 10.9606 17.0555C10.8755 16.85 10.8532 16.6238 10.8966 16.4055C10.94 16.1873 11.0472 15.9868 11.2045 15.8295C11.3618 15.6722 11.5623 15.565 11.7805 15.5216C11.9988 15.4782 12.225 15.5005 12.4305 15.5856C12.6361 15.6708 12.8118 15.815 12.9354 16C13.059 16.185 13.125 16.4025 13.125 16.625C13.125 16.9234 13.0065 17.2095 12.7955 17.4205C12.5845 17.6315 12.2984 17.75 12 17.75Z" fill="#B519FF" />
@@ -109,39 +288,27 @@ const Freecourse = () => {
                                     </svg>
                                     <span className="mx-2">English, Hindi, Gujarati</span>
                                 </span>
-                            </div>
+                            </div> */}
                             {/* what you lear */}
                             <div className="web2course-courseContent-learn mt-4">
                                 <h1 className="web2course-courseContent-learn-head">What you’ll learn</h1>
                                 <div className="web2course-courseContent-list-container">
                                     <ul className="web2course-courseContent-list-container-ul">
                                         <li className="d-flex justify-content-between">
-                                            <span className="w-50 d-flex"><img src={sealCheck} />&nbsp;Web1, Web2 & Free</span>
-                                            <span className="w-50 d-flex"><img src={sealCheck} />&nbsp;Client Server & P2P Model</span>
+                                            <span className="w-50 d-flex"><img src={sealCheck} />&nbsp;Web3</span>
+                                            <span className="w-50 d-flex"><img src={sealCheck} />&nbsp;Demos</span>
                                         </li>
                                         <li className="d-flex justify-content-between">
-                                            <span className="w-50 d-flex"><img src={sealCheck} />&nbsp;Ledger, Immutability & Cryptography</span>
-                                            <span className="w-50 d-flex"><img src={sealCheck} />&nbsp;Blockchain & Census Mechanisms</span>
+                                            <span className="w-50 d-flex"><img src={sealCheck} />&nbsp;Blockchain</span>
+                                            <span className="w-50 d-flex"><img src={sealCheck} />&nbsp;Tokens and Coins</span>
                                         </li>
                                         <li className="d-flex justify-content-between">
-                                            <span className="w-50 d-flex"><img src={sealCheck} />&nbsp;Ethereum & Polygon</span>
-                                            <span className="w-50 d-flex"><img src={sealCheck} />&nbsp;Bitcoin, Solana, USDT & Dogcoin</span>
+                                            <span className="w-50 d-flex"><img src={sealCheck} />&nbsp;Framework</span>
+                                            <span className="w-50 d-flex"><img src={sealCheck} />&nbsp;Ethereum & Bitcoin</span>
                                         </li>
                                         <li className="d-flex justify-content-between">
-                                            <span className="w-50 d-flex"><img src={sealCheck} />&nbsp;Private & Public key</span>
-                                            <span className="w-50 d-flex"><img src={sealCheck} />&nbsp;How to make a Crypto Transaction</span>
-                                        </li>
-                                        <li className="d-flex justify-content-between">
-                                            <span className="w-50 d-flex"><img src={sealCheck} />&nbsp;Smart Contract</span>
-                                            <span className="w-50 d-flex"><img src={sealCheck} />&nbsp;Smart Contract Coding</span>
-                                        </li>
-                                        <li className="d-flex justify-content-between">
-                                            <span className="w-50 d-flex"><img src={sealCheck} />&nbsp;DApp & DeFi Protocol</span>
-                                            <span className="w-50 d-flex"><img src={sealCheck} />&nbsp;NFT & NFT Projects</span>
-                                        </li>
-                                        <li className="d-flex justify-content-between">
-                                            <span className="w-50 d-flex"><img src={sealCheck} />&nbsp;Free Gaming & Free Social Media</span>
-                                            <span className="w-50 d-flex"><img src={sealCheck} />&nbsp;Supply Chain Management</span>
+                                            <span className="w-50 d-flex"><img src={sealCheck} />&nbsp;Smart Contracts</span>
+                                            <span className="w-50 d-flex"><img src={sealCheck} />&nbsp;Crypto Projects</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -151,17 +318,11 @@ const Freecourse = () => {
                                 <h1 className="web2course-courseContent-learn-head">This Course Includes:</h1>
                                 <div className="web2course-courseContent-list-container mt-3">
                                     <ul className="web2course-courseContent-inclu">
-                                        <li>
+                                        <li className="my-2">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                                 <path d="M10 1.875C8.39303 1.875 6.82214 2.35152 5.486 3.24431C4.14985 4.1371 3.10844 5.40605 2.49348 6.8907C1.87852 8.37535 1.71762 10.009 2.03112 11.5851C2.34463 13.1612 3.11846 14.6089 4.25476 15.7452C5.39106 16.8815 6.8388 17.6554 8.4149 17.9689C9.99099 18.2824 11.6247 18.1215 13.1093 17.5065C14.594 16.8916 15.8629 15.8502 16.7557 14.514C17.6485 13.1779 18.125 11.607 18.125 10C18.1223 7.84594 17.2654 5.78088 15.7423 4.25773C14.2191 2.73457 12.1541 1.87769 10 1.875ZM12.8469 10.5203L9.09688 13.0203C8.99403 13.0885 8.87339 13.1249 8.75 13.125C8.58424 13.125 8.42527 13.0592 8.30806 12.9419C8.19085 12.8247 8.125 12.6658 8.125 12.5V7.5C8.12493 7.38682 8.15559 7.27575 8.21371 7.17863C8.27183 7.08152 8.35523 7.00201 8.45501 6.94859C8.55479 6.89517 8.6672 6.86985 8.78025 6.87533C8.89329 6.8808 9.00273 6.91687 9.09688 6.97969L12.8469 9.47969C12.9326 9.53674 13.0029 9.61409 13.0515 9.70487C13.1002 9.79564 13.1256 9.89702 13.1256 10C13.1256 10.103 13.1002 10.2044 13.0515 10.2951C13.0029 10.3859 12.9326 10.4633 12.8469 10.5203Z" fill="#AD00FF" />
                                             </svg>
-                                            <span className="mx-2">20 hours Pre-Recorded Content</span>
-                                        </li>
-                                        <li className="my-2">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                                <path d="M16.6922 6.43281L12.3172 2.05781C12.2591 1.99979 12.1902 1.95378 12.1143 1.92241C12.0384 1.89105 11.9571 1.87494 11.875 1.875H4.375C4.04348 1.875 3.72554 2.0067 3.49112 2.24112C3.2567 2.47554 3.125 2.79348 3.125 3.125V16.875C3.125 17.2065 3.2567 17.5245 3.49112 17.7589C3.72554 17.9933 4.04348 18.125 4.375 18.125H15.625C15.9565 18.125 16.2745 17.9933 16.5089 17.7589C16.7433 17.5245 16.875 17.2065 16.875 16.875V6.875C16.8751 6.7929 16.859 6.71159 16.8276 6.63572C16.7962 6.55985 16.7502 6.4909 16.6922 6.43281ZM11.875 6.875V3.4375L15.3125 6.875H11.875Z" fill="#AD00FF" />
-                                            </svg>
-                                            <span className="mx-2">400+ Questions</span>
+                                            <span className="mx-2">60 Minutes Pre-Recorded Content</span>
                                         </li>
                                         <li>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -171,12 +332,6 @@ const Freecourse = () => {
                                         </li>
                                     </ul>
                                     <ul className="web2course-courseContent-inclu">
-                                        <li>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                                <path d="M13.75 1.25H6.25C5.75272 1.25 5.27581 1.44754 4.92417 1.79917C4.57254 2.15081 4.375 2.62772 4.375 3.125V16.875C4.375 17.3723 4.57254 17.8492 4.92417 18.2008C5.27581 18.5525 5.75272 18.75 6.25 18.75H13.75C14.2473 18.75 14.7242 18.5525 15.0758 18.2008C15.4275 17.8492 15.625 17.3723 15.625 16.875V3.125C15.625 2.62772 15.4275 2.15081 15.0758 1.79917C14.7242 1.44754 14.2473 1.25 13.75 1.25ZM6.25 2.5H13.75C13.9158 2.5 14.0747 2.56585 14.1919 2.68306C14.3092 2.80027 14.375 2.95924 14.375 3.125V3.75H5.625V3.125C5.625 2.95924 5.69085 2.80027 5.80806 2.68306C5.92527 2.56585 6.08424 2.5 6.25 2.5ZM13.75 17.5H6.25C6.08424 17.5 5.92527 17.4342 5.80806 17.3169C5.69085 17.1997 5.625 17.0408 5.625 16.875V16.25H14.375V16.875C14.375 17.0408 14.3092 17.1997 14.1919 17.3169C14.0747 17.4342 13.9158 17.5 13.75 17.5Z" fill="#AD00FF" />
-                                            </svg>
-                                            <span className="mx-2">Access on Mobile & TV</span>
-                                        </li>
                                         <li className="my-2">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                                 <path d="M17.5 3.75H2.5C2.16848 3.75 1.85054 3.8817 1.61612 4.11612C1.3817 4.35054 1.25 4.66848 1.25 5V15C1.25 15.3315 1.3817 15.6495 1.61612 15.8839C1.85054 16.1183 2.16848 16.25 2.5 16.25H17.5C17.8315 16.25 18.1495 16.1183 18.3839 15.8839C18.6183 15.6495 18.75 15.3315 18.75 15V5C18.75 4.66848 18.6183 4.35054 18.3839 4.11612C18.1495 3.8817 17.8315 3.75 17.5 3.75ZM9.0625 12.7063C8.58744 12.9806 8.04855 13.125 7.49998 13.125C6.95142 13.125 6.41251 12.9806 5.93743 12.7064C5.46235 12.4321 5.06784 12.0376 4.79355 11.5625C4.51926 11.0875 4.37486 10.5486 4.37486 10C4.37486 9.45143 4.51926 8.91253 4.79355 8.43747C5.06784 7.9624 5.46235 7.5679 5.93743 7.29363C6.41251 7.01936 6.95142 6.87498 7.49998 6.875C8.04855 6.87502 8.58744 7.01944 9.0625 7.29375C9.13585 7.33358 9.20047 7.38769 9.25256 7.4529C9.30466 7.51811 9.34316 7.59309 9.36581 7.67342C9.38845 7.75375 9.39478 7.8378 9.38441 7.92062C9.37405 8.00343 9.3472 8.08333 9.30545 8.15561C9.26371 8.22788 9.20791 8.29105 9.14135 8.34141C9.0748 8.39177 8.99883 8.42829 8.91793 8.44881C8.83703 8.46933 8.75284 8.47344 8.67033 8.4609C8.58781 8.44836 8.50865 8.41941 8.4375 8.37578C8.15245 8.21138 7.82916 8.12489 7.5001 8.125C7.17104 8.12511 6.8478 8.21182 6.56286 8.37641C6.27793 8.54101 6.04132 8.77769 5.87683 9.06268C5.71233 9.34767 5.62573 9.67094 5.62573 10C5.62573 10.3291 5.71233 10.6523 5.87683 10.9373C6.04132 11.2223 6.27793 11.459 6.56286 11.6236C6.8478 11.7882 7.17104 11.8749 7.5001 11.875C7.82916 11.8751 8.15245 11.7886 8.4375 11.6242C8.58067 11.5465 8.74853 11.5277 8.90533 11.5719C9.06212 11.6161 9.19547 11.7198 9.27695 11.8609C9.35844 12.0019 9.38162 12.1692 9.34156 12.3271C9.3015 12.4851 9.20137 12.6211 9.0625 12.7063ZM15.3125 12.7063C14.8374 12.9806 14.2985 13.125 13.75 13.125C13.2014 13.125 12.6625 12.9806 12.1874 12.7064C11.7124 12.4321 11.3178 12.0376 11.0436 11.5625C10.7693 11.0875 10.6249 10.5486 10.6249 10C10.6249 9.45143 10.7693 8.91253 11.0436 8.43747C11.3178 7.9624 11.7124 7.5679 12.1874 7.29363C12.6625 7.01936 13.2014 6.87498 13.75 6.875C14.2985 6.87502 14.8374 7.01944 15.3125 7.29375C15.3858 7.33358 15.4505 7.38769 15.5026 7.4529C15.5547 7.51811 15.5932 7.59309 15.6158 7.67342C15.6385 7.75375 15.6448 7.8378 15.6344 7.92062C15.624 8.00343 15.5972 8.08333 15.5555 8.15561C15.5137 8.22788 15.4579 8.29105 15.3914 8.34141C15.3248 8.39177 15.2488 8.42829 15.1679 8.44881C15.087 8.46933 15.0028 8.47344 14.9203 8.4609C14.8378 8.44836 14.7586 8.41941 14.6875 8.37578C14.4025 8.21138 14.0792 8.12489 13.7501 8.125C13.421 8.12511 13.0978 8.21182 12.8129 8.37641C12.5279 8.54101 12.2913 8.77769 12.1268 9.06268C11.9623 9.34767 11.8757 9.67094 11.8757 10C11.8757 10.3291 11.9623 10.6523 12.1268 10.9373C12.2913 11.2223 12.5279 11.459 12.8129 11.6236C13.0978 11.7882 13.421 11.8749 13.7501 11.875C14.0792 11.8751 14.4025 11.7886 14.6875 11.6242C14.8307 11.5465 14.9985 11.5277 15.1553 11.5719C15.3121 11.6161 15.4455 11.7198 15.527 11.8609C15.6084 12.0019 15.6316 12.1692 15.5916 12.3271C15.5515 12.4851 15.4514 12.6211 15.3125 12.7063Z" fill="#B519FF" />
@@ -199,14 +354,16 @@ const Freecourse = () => {
                             <div className="web2course-courseDesc-video">
                             </div>
                             <div className="px-2 web2course-courseDesc-price flex">
-                                <span className="web2course-courseDesc-video-rupee px-2">₹ 2499</span>
-                                <del className="web2course-courseDesc-video-delrupee px-2 mx-2">₹ 4999</del>
-                                <span className="web2course-courseDesc-video-off px-2">50% off</span>
+                                <span className="web2course-courseDesc-video-rupee px-2">Free!</span>
+                                <del className="web2course-courseDesc-video-delrupee px-2 mx-2">₹ 999</del>
+                                <span className="web2course-courseDesc-video-off px-2">100% off</span>
                             </div>
-                            <button className="web2course-courseDesc-add-cart">Coming Soon</button>
-                            <button className="web2course-courseDesc-enroll my-2">Coming Soon</button>
+                            <a href="https://academy.vidyaverse.in/account/expresscheckout?redirectfrom=signup&course=a65970b8-5755-4d91-b76a-39b1e4f59918">
+                                <button className="web2course-courseDesc-add-cart">Access Now</button>
+                            </a>
+                            {/* <button className="web2course-courseDesc-enroll my-2">Coming Soon</button> */}
 
-                              <h6 className="web2course-courseDesc-feat mt-3">This Course includes:</h6>
+                              {/*<h6 className="web2course-courseDesc-feat mt-3">This Course includes:</h6>
                            <ul className="web2course-courseDesc-ul">
                                 <li>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -232,9 +389,9 @@ const Freecourse = () => {
                                     </svg>
                                     <span>Certificate of completion</span>
                                 </li>
-                            </ul>
+                            </ul> */}
                             {/* <h6 className="web2course-courseDesc-feat mt-4">More Options:</h6> */}
-                            <div className="web2course-courseDesc-share-div mt-2">
+                            {/* <div className="web2course-courseDesc-share-div mt-2">
                                 <div className="web2course-courseDesc-share-card">
                                     <span className="text-center">
                                         <span>
@@ -245,7 +402,7 @@ const Freecourse = () => {
                                         <span>Share</span>
                                     </span >
                                 </div>
-                                <div className="web2course-courseDesc-share-card">
+                                {/* <div className="web2course-courseDesc-share-card">
                                     <span className="text-center">
                                         <span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -254,7 +411,7 @@ const Freecourse = () => {
                                         </span><br />
                                         <span>Gift</span>
                                     </span >
-                                </div>
+                                </div> 
                                 <div className="web2course-courseDesc-share-card">
                                     <span className="text-center">
                                         <span>
@@ -265,11 +422,11 @@ const Freecourse = () => {
                                         <span>Apply Coupon</span>
                                     </span >
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
 
                     </div>
-                    <h1 className="web2course-courseContent-curri-head mt-4">Course curriculum</h1>
+                    {/* <h1 className="web2course-courseContent-curri-head mt-4">Course curriculum</h1>
                     <div className="d-flex justify-content-between">
                         <div>
                             <span>
@@ -282,21 +439,21 @@ const Freecourse = () => {
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                     <path d="M16.25 2.5H3.75C3.41848 2.5 3.10054 2.6317 2.86612 2.86612C2.6317 3.10054 2.5 3.41848 2.5 3.75V16.25C2.5 16.5815 2.6317 16.8995 2.86612 17.1339C3.10054 17.3683 3.41848 17.5 3.75 17.5H16.25C16.5815 17.5 16.8995 17.3683 17.1339 17.1339C17.3683 16.8995 17.5 16.5815 17.5 16.25V3.75C17.5 3.41848 17.3683 3.10054 17.1339 2.86612C16.8995 2.6317 16.5815 2.5 16.25 2.5ZM6.25 16.25H3.75V3.75H6.25V16.25ZM13.75 11.875H8.75C8.58424 11.875 8.42527 11.8092 8.30806 11.6919C8.19085 11.5747 8.125 11.4158 8.125 11.25C8.125 11.0842 8.19085 10.9253 8.30806 10.8081C8.42527 10.6908 8.58424 10.625 8.75 10.625H13.75C13.9158 10.625 14.0747 10.6908 14.1919 10.8081C14.3092 10.9253 14.375 11.0842 14.375 11.25C14.375 11.4158 14.3092 11.5747 14.1919 11.6919C14.0747 11.8092 13.9158 11.875 13.75 11.875ZM13.75 9.375H8.75C8.58424 9.375 8.42527 9.30915 8.30806 9.19194C8.19085 9.07473 8.125 8.91576 8.125 8.75C8.125 8.58424 8.19085 8.42527 8.30806 8.30806C8.42527 8.19085 8.58424 8.125 8.75 8.125H13.75C13.9158 8.125 14.0747 8.19085 14.1919 8.30806C14.3092 8.42527 14.375 8.58424 14.375 8.75C14.375 8.91576 14.3092 9.07473 14.1919 9.19194C14.0747 9.30915 13.9158 9.375 13.75 9.375Z" fill="#AD00FF" />
                                 </svg>
-                                <span className="mx-2">X Lectures</span>
+                                <span className="mx-2">254 Episodes</span>
                             </span>
                             <span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                     <path d="M10 1.875C8.39303 1.875 6.82214 2.35152 5.486 3.24431C4.14985 4.1371 3.10844 5.40605 2.49348 6.8907C1.87852 8.37535 1.71762 10.009 2.03112 11.5851C2.34463 13.1612 3.11846 14.6089 4.25476 15.7452C5.39106 16.8815 6.8388 17.6554 8.4149 17.9689C9.99099 18.2824 11.6247 18.1215 13.1093 17.5065C14.594 16.8916 15.8629 15.8502 16.7557 14.514C17.6485 13.1779 18.125 11.607 18.125 10C18.1227 7.84581 17.266 5.78051 15.7427 4.25727C14.2195 2.73403 12.1542 1.87727 10 1.875ZM14.375 10.625H10C9.83424 10.625 9.67527 10.5592 9.55806 10.4419C9.44085 10.3247 9.375 10.1658 9.375 10V5.625C9.375 5.45924 9.44085 5.30027 9.55806 5.18306C9.67527 5.06585 9.83424 5 10 5C10.1658 5 10.3247 5.06585 10.4419 5.18306C10.5592 5.30027 10.625 5.45924 10.625 5.625V9.375H14.375C14.5408 9.375 14.6997 9.44085 14.8169 9.55806C14.9342 9.67527 15 9.83424 15 10C15 10.1658 14.9342 10.3247 14.8169 10.4419C14.6997 10.5592 14.5408 10.625 14.375 10.625Z" fill="#AD00FF" />
                                 </svg>
-                                <span className="mx-2">20 hours</span>
+                                <span className="mx-2">10 hours</span>
                             </span>
                         </div>
-                        {/*<div>
+                        <div>
                             <span>Expand all Modules</span> &nbsp;
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                 <path d="M16.6922 7.94219L10.4422 14.1922C10.3841 14.2503 10.3152 14.2964 10.2393 14.3279C10.1635 14.3593 10.0821 14.3755 10 14.3755C9.91787 14.3755 9.83654 14.3593 9.76067 14.3279C9.68479 14.2964 9.61586 14.2503 9.55782 14.1922L3.30782 7.94219C3.22031 7.85478 3.1607 7.74337 3.13655 7.62207C3.11239 7.50076 3.12477 7.37502 3.17211 7.26076C3.21946 7.14649 3.29964 7.04884 3.40252 6.98017C3.50539 6.91151 3.62632 6.8749 3.75 6.875H16.25C16.3737 6.8749 16.4946 6.91151 16.5975 6.98017C16.7004 7.04884 16.7805 7.14649 16.8279 7.26076C16.8752 7.37502 16.8876 7.50076 16.8635 7.62207C16.8393 7.74337 16.7797 7.85478 16.6922 7.94219Z" fill="#AD00FF" />
                             </svg>
-                        </div>*/}
+                        </div>
                     </div>
 
                         <div className="web2course-courseContent-curri-table">
@@ -307,18 +464,16 @@ const Freecourse = () => {
                                             )
                                         })
                                     }
-                        </div>
+                        </div> */}
                     
-
-                    
-                        
                     <h1 className="web2course-courseContent-curri-head mt-4">Instructors</h1>
                     <div className="web2course-courseContent-about-inst my-4 d-flex justify-content-center align-items-center p-3 ">
-                        <div className="web2course-courseContent-inst-img"><img src={Instructor} /></div>
+                        
+                        <div className="web2course-courseContent-inst-img"><img src={Sauransh} /></div>
                         <div className="web2course-courseContent-inst-detail">
-                            <h2>Sauransh Bharadvaj </h2>
-                            <p>Co-founder & Ceo</p>
-                            <ul>
+                            <h2>Sauransh Bhardwaj</h2>
+                            <p>Co-Founder & CEO</p>
+                            {/* <ul>
                                 <li> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                     <path d="M18.3203 8.93603L14.7969 12.011L15.8524 16.5892C15.9082 16.8285 15.8923 17.079 15.8065 17.3093C15.7208 17.5396 15.5691 17.7396 15.3703 17.8841C15.1716 18.0287 14.9346 18.1114 14.6891 18.1221C14.4436 18.1327 14.2004 18.0707 13.9899 17.9438L9.99689 15.522L6.01252 17.9438C5.80202 18.0707 5.55881 18.1327 5.31328 18.1221C5.06775 18.1114 4.83079 18.0287 4.63204 17.8841C4.4333 17.7396 4.28157 17.5396 4.19584 17.3093C4.1101 17.079 4.09416 16.8285 4.15002 16.5892L5.20392 12.0157L1.6797 8.93603C1.49331 8.77526 1.35852 8.56304 1.29225 8.32598C1.22598 8.08892 1.23117 7.83757 1.30718 7.60345C1.38319 7.36933 1.52663 7.16287 1.71952 7.00994C1.9124 6.85702 2.14614 6.76445 2.39142 6.74384L7.03674 6.34149L8.85002 2.01649C8.94471 1.78955 9.10443 1.5957 9.30907 1.45935C9.51371 1.323 9.75411 1.25024 10 1.25024C10.2459 1.25024 10.4863 1.323 10.691 1.45935C10.8956 1.5957 11.0553 1.78955 11.15 2.01649L12.9688 6.34149L17.6125 6.74384C17.8578 6.76445 18.0915 6.85702 18.2844 7.00994C18.4773 7.16287 18.6207 7.36933 18.6968 7.60345C18.7728 7.83757 18.778 8.08892 18.7117 8.32598C18.6454 8.56304 18.5106 8.77526 18.3242 8.93603H18.3203Z" fill="#AD00FF" />
                                 </svg> &nbsp;<span>4.5 Instructor rating</span></li>
@@ -337,11 +492,13 @@ const Freecourse = () => {
                                         <path d="M10 1.875C8.39303 1.875 6.82214 2.35152 5.486 3.24431C4.14985 4.1371 3.10844 5.40605 2.49348 6.8907C1.87852 8.37535 1.71762 10.009 2.03112 11.5851C2.34463 13.1612 3.11846 14.6089 4.25476 15.7452C5.39106 16.8815 6.8388 17.6554 8.4149 17.9689C9.99099 18.2824 11.6247 18.1215 13.1093 17.5065C14.594 16.8916 15.8629 15.8502 16.7557 14.514C17.6485 13.1779 18.125 11.607 18.125 10C18.1223 7.84594 17.2654 5.78088 15.7423 4.25773C14.2191 2.73457 12.1541 1.87769 10 1.875ZM12.8469 10.5203L9.09688 13.0203C8.99403 13.0885 8.87339 13.1249 8.75 13.125C8.58424 13.125 8.42527 13.0592 8.30806 12.9419C8.19085 12.8247 8.125 12.6658 8.125 12.5V7.5C8.12493 7.38682 8.15559 7.27575 8.21371 7.17863C8.27183 7.08152 8.35523 7.00201 8.45501 6.94859C8.55479 6.89517 8.6672 6.86985 8.78025 6.87533C8.89329 6.8808 9.00273 6.91687 9.09688 6.97969L12.8469 9.47969C12.9326 9.53674 13.0029 9.61409 13.0515 9.70487C13.1002 9.79564 13.1256 9.89702 13.1256 10C13.1256 10.103 13.1002 10.2044 13.0515 10.2951C13.0029 10.3859 12.9326 10.4633 12.8469 10.5203Z" fill="#AD00FF" />
                                     </svg>
                                     &nbsp;&nbsp;20+ Courses</li>
-                            </ul>
+                            </ul> */}
                         </div>
-                        <p className="web2course-courseContent-inst-desc">Sauransh is an online entrepreneur who has created 30+ top-rated educational e-courses to the world on new technology topics such as Artificial Intelligence, Machine Learning, Deep Learning, Blockchain and Cryptocurrencies. He is passionate about bringing this knowledge to the world and help as much people as possible. So far more than 1.7 million students have subscribed to his courses.</p>
+                        <p className="web2course-courseContent-inst-desc">A college freshman at Drexel University, and a lifelong learner focusing on web3, artificial intelligence, and finance.
+                        My role at VidyaVerse includes building products, managing teams, and talking to users every week!
+                        </p>
                     </div>
-                    
+                
                 </div>
 
             </section>
