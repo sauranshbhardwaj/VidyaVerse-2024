@@ -375,7 +375,7 @@ const Web3course = () => {
 
                         </div>
                         <div className="web2course-courseDesc">
-                            <div className="web2course-courseDesc-video">
+                            <div className="web2course-courseDesc-video2">
                             </div>
                             <div className="px-2 web2course-courseDesc-price flex">
                                 <span className="web2course-courseDesc-video-rupee px-2">₹ 2499</span>

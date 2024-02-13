@@ -170,7 +170,7 @@ border-left: 2px solid #7A7A7A;
     padding: 8px;
 }
 
-.web2course-courseDesc-video {
+.web2course-courseDesc-video2 {
     height: 350px;
     border-radius: 16px;
     background: #2D2D2D;
@@ -181,7 +181,7 @@ border-left: 2px solid #7A7A7A;
     background-size: cover;
 }
 
-.web2course-courseDesc-video p {
+.web2course-courseDesc-video2 p {
     color: #ffffff;
     font-size: 45px;
     font-weight: 700;
