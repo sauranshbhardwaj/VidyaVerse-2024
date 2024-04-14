@@ -40,7 +40,7 @@ export default function Footer() {
         <p className="py-0 ">&copy; 2024 VidyaVerse</p>
         <ul className="d-flex term-policy">
           <li>Terms of Service</li>
-          <li>Privacy Policy</li>
+          <li><a href="https://docs.google.com/document/d/1tLaj32FKWOTkSZ15RpWsnaeZvfGAJt_QoKgKOTLyPdw/edit?usp=sharing" style={{textDecoration: "none", color: "rgba(255, 255, 255, 0.8)"}}>Privacy Policy</a></li>
           <li>Cookies</li>
         </ul>
       </div>
