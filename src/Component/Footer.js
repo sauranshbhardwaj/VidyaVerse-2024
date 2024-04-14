@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="footer-org-about" >
           <img src={footer} className="mb-2" style={{ width: "165px", height: "60px" }} alt={"ImageApply"} />
           <p className="" style={{ color: "rgba(255, 255, 255, 0.8)" }}>VidyaVerse is a one-stop platform for teenagers to explore their passions, learn skills while in school, and become industry ready today. Start your journey today!</p>
-          <p>Address: 279/4 Jawahar Nagar, New Railway Road, Gurugram - 122001, Haryana, India</p>
+          <p className="" style={{ color: "rgba(255, 255, 255, 0.8)" }}>Address: 279/4 Jawahar Nagar, New Railway Road, Gurugram - 122001, Haryana, India</p>
         </div>
         <div className="d-flex footer-list">
           <ul className="footer-program-ul">
