@@ -40,9 +40,8 @@ export default function Footer() {
       <div className="copyWrite-container d-flex justify-content-between">
         <p className="py-0 ">&copy; 2024 VidyaVerse</p>
         <ul className="d-flex term-policy">
-          <li>Terms of Service</li>
+          <li><a href="https://docs.google.com/document/d/18ZHHJXmQqSbOgxqjL72GIvSLRrzKM_B9I0f-ZEJ1pzI/edit?usp=sharing" style={{textDecoration: "none", color: "rgba(255, 255, 255, 0.8)"}}>Terms of Service</a></li>
           <li><a href="https://docs.google.com/document/d/1tLaj32FKWOTkSZ15RpWsnaeZvfGAJt_QoKgKOTLyPdw/edit?usp=sharing" style={{textDecoration: "none", color: "rgba(255, 255, 255, 0.8)"}}>Privacy Policy</a></li>
-          <li>Cookies</li>
         </ul>
       </div>
     </footer>
