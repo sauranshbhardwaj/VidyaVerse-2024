@@ -15,7 +15,7 @@ const Book = () => {
           <div className="book-content">
             <h1 className="book-head">Intro to<br /><span className="contact-subtitle">Web3</span></h1>
             <p className="book-prag">In this book, you'll journey through the web's evolution, explore blockchain's applications, understand forks, discover key frameworks, learn about smart contracts, tokens, and coins, and gain insights into Ethereum and Bitcoin. You'll also get to know notable crypto projects like SushiSwap and Polygon, all in one informative read.</p>
-            <h2 className="book-head2">Get it on</h2>
+            {/* <h2 className="book-head2">Get it on</h2>
             <div className="book-sell-media">
               <div className="book-sell-card">
                 <Link to="https://amzn.eu/d/dOHOmpJ" target="_black">
@@ -93,7 +93,7 @@ const Book = () => {
                 <img src={Notionpress} alt="Notionpress "/>
                 </Link>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="book-img-box position-relative">
             <div className="book-img-ecllips"></div>
