@@ -42,6 +42,7 @@ export default function Footer() {
         <ul className="d-flex term-policy">
           <li><a href="https://docs.google.com/document/d/18ZHHJXmQqSbOgxqjL72GIvSLRrzKM_B9I0f-ZEJ1pzI/edit?usp=sharing" style={{textDecoration: "none", color: "rgba(255, 255, 255, 0.8)"}}>Terms of Service</a></li>
           <li><a href="https://docs.google.com/document/d/1tLaj32FKWOTkSZ15RpWsnaeZvfGAJt_QoKgKOTLyPdw/edit?usp=sharing" style={{textDecoration: "none", color: "rgba(255, 255, 255, 0.8)"}}>Privacy Policy</a></li>
+          <li><a href="https://docs.google.com/document/d/12HKXY4EM2RsuqW9dUTR2j1MZlYgcmxIFWlIqcPeYlXE/edit?usp=sharing" style={{textDecoration: "none", color: "rgba(255, 255, 255, 0.8)"}}>Refund Policy</a></li>
         </ul>
       </div>
     </footer>
