@@ -1,3 +1,13 @@
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MBHVP11KDQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'G-MBHVP11KDQ');
+</script></head>
+
 import React, { useState, useRef } from "react";
 import './web3course.css'
 import Navbar from "../Component/Navbar";
@@ -6,8 +16,6 @@ import sealCheck from '../images/SealCheck.svg'
 import Sauransh from '../images/sauransh.jpeg'
 import Chirag from '../images/chirag.png'
 import Yashika from '../images/yashika.png'
-
-
 
 const courses = [
     {
